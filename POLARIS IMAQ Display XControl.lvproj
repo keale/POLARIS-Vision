@@ -10,13 +10,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="test xctrl.vi" Type="VI" URL="../test xctrl.vi"/>
 		<Item Name="POLARIS IMAQ Display.xctl" Type="XControl" URL="../XDisplay/POLARIS IMAQ Display.xctl"/>
 		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="IMAQdx Cam.lvclass" Type="LVClass" URL="../IMAQdx Cam/IMAQdx Cam.lvclass"/>
 		<Item Name="listener mode.vi" Type="VI" URL="../listener mode.vi"/>
 		<Item Name="test 4 cams.vi" Type="VI" URL="../test 4 cams.vi"/>
 		<Item Name="Update_Attribute_Tree_POLARIS.vi" Type="VI" URL="../IMAQdx Cam/Update_Attribute_Tree_POLARIS.vi"/>
-		<Item Name="test xctrl.vi" Type="VI" URL="../test xctrl.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>

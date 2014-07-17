@@ -33,6 +33,7 @@
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ImageSource</Property>
 			<Item Name="ImageSource Write.vi" Type="Property VI" URL="../Properties/ImageSource Write.vi"/>
 		</Item>
+		<Item Name="Named ROI.ctl" Type="VI" URL="../Named ROI.ctl"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="ImageSource.ctl" Type="VI" URL="../Properties/ImageSource.ctl"/>
@@ -57,4 +58,6 @@
 	<Item Name="Display Settings.vi" Type="VI" URL="../Display Settings.vi"/>
 	<Item Name="Apply min Threshold.vi" Type="VI" URL="../Apply min Threshold.vi"/>
 	<Item Name="Overline Cross.vi" Type="VI" URL="../Overline Cross.vi"/>
+	<Item Name="Enter ROI Name.vi" Type="VI" URL="../Enter ROI Name.vi"/>
+	<Item Name="Open Dialog VI.vi" Type="VI" URL="../Open Dialog VI.vi"/>
 </XControl>
