@@ -33,7 +33,17 @@
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ImageSource</Property>
 			<Item Name="ImageSource Write.vi" Type="Property VI" URL="../Properties/ImageSource Write.vi"/>
 		</Item>
-		<Item Name="Named ROI.ctl" Type="VI" URL="../Named ROI.ctl"/>
+		<Item Name="ConfigDir" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">ConfigDir</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">ConfigDir</Property>
+			<Item Name="ConfigDir Write.vi" Type="Property VI" URL="../Properties/ConfigDir Write.vi"/>
+		</Item>
+		<Item Name="image name prefix" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">image name prefix</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">image name prefix</Property>
+			<Item Name="image name prefix Read.vi" Type="Property VI" URL="../Properties/image name prefix Read.vi"/>
+			<Item Name="image name prefix Write 2.vi" Type="Property VI" URL="../Properties/image name prefix Write 2.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="ImageSource.ctl" Type="VI" URL="../Properties/ImageSource.ctl"/>
@@ -44,6 +54,7 @@
 			<Property Name="NI.XItem.Name" Type="Str">State</Property>
 		</Item>
 		<Item Name="DisplaySettings.ctl" Type="VI" URL="../DisplaySettings.ctl"/>
+		<Item Name="Named ROI.ctl" Type="VI" URL="../Named ROI.ctl"/>
 	</Item>
 	<Item Name="Methods" Type="Folder">
 		<Item Name="Set Display Settings.vi" Type="Method VI" URL="../Methods/Set Display Settings.vi"/>
@@ -60,4 +71,9 @@
 	<Item Name="Overline Cross.vi" Type="VI" URL="../Overline Cross.vi"/>
 	<Item Name="Enter ROI Name.vi" Type="VI" URL="../Enter ROI Name.vi"/>
 	<Item Name="Open Dialog VI.vi" Type="VI" URL="../Open Dialog VI.vi"/>
+	<Item Name="Write Display Settings 2 File.vi" Type="VI" URL="../Write Display Settings 2 File.vi"/>
+	<Item Name="Read Display Settings from File.vi" Type="VI" URL="../Read Display Settings from File.vi"/>
+	<Item Name="FWHM XDisplay.vi" Type="VI" URL="../FWHM XDisplay.vi"/>
+	<Item Name="Overlay LineOut from ROI XDisplay.vi" Type="VI" URL="../Overlay LineOut from ROI XDisplay.vi"/>
+	<Item Name="Overlay LineOut XDisplay.vi" Type="VI" URL="../Overlay LineOut XDisplay.vi"/>
 </XControl>
