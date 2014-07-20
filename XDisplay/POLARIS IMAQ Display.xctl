@@ -57,6 +57,7 @@
 		<Item Name="Named ROI.ctl" Type="VI" URL="../Named ROI.ctl"/>
 	</Item>
 	<Item Name="Methods" Type="Folder">
+		<Item Name="Get Displayed Image.vi" Type="Method VI" URL="../Methods/Get Displayed Image.vi"/>
 		<Item Name="Set Display Settings.vi" Type="Method VI" URL="../Methods/Set Display Settings.vi"/>
 	</Item>
 	<Item Name="Init.vi" Type="Ability VI" URL="../Init.vi">
