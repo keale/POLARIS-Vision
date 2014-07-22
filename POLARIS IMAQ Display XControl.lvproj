@@ -10,19 +10,22 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="examples" Type="Folder">
+			<Item Name="IMAQdx Class" Type="Folder">
+				<Item Name="test attributes file.vi" Type="VI" URL="../IMAQdx Cam/test attributes file.vi"/>
+				<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+				<Item Name="test 4 cams.vi" Type="VI" URL="../test 4 cams.vi"/>
+				<Item Name="listener mode.vi" Type="VI" URL="../listener mode.vi"/>
+			</Item>
+		</Item>
 		<Item Name="Analyze Classes" Type="Folder">
 			<Item Name="Analyze BaseClass.lvclass" Type="LVClass" URL="../Analyze Classes/Analyze BaseClass/Analyze BaseClass.lvclass"/>
 			<Item Name="Analyze Fluence.lvclass" Type="LVClass" URL="../Analyze Classes/Analyze Fluence/Analyze Fluence.lvclass"/>
 		</Item>
-		<Item Name="test xctrl.vi" Type="VI" URL="../test xctrl.vi"/>
+		<Item Name="POLARIS Vision utility.lvlib" Type="Library" URL="../Utility/POLARIS Vision utility.lvlib"/>
 		<Item Name="POLARIS IMAQ Display.xctl" Type="XControl" URL="../XDisplay/POLARIS IMAQ Display.xctl"/>
-		<Item Name="test.vi" Type="VI" URL="../test.vi"/>
 		<Item Name="IMAQdx Cam.lvclass" Type="LVClass" URL="../IMAQdx Cam/IMAQdx Cam.lvclass"/>
-		<Item Name="listener mode.vi" Type="VI" URL="../listener mode.vi"/>
-		<Item Name="test 4 cams.vi" Type="VI" URL="../test 4 cams.vi"/>
-		<Item Name="Update_Attribute_Tree_POLARIS.vi" Type="VI" URL="../IMAQdx Cam/Update_Attribute_Tree_POLARIS.vi"/>
-		<Item Name="test attributes file.vi" Type="VI" URL="../IMAQdx Cam/test attributes file.vi"/>
-		<Item Name="test save Control Values to file.vi" Type="VI" URL="../XDisplay/test save Control Values to file.vi"/>
+		<Item Name="test xctrl.vi" Type="VI" URL="../test xctrl.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
@@ -70,17 +73,44 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Flush Control Value.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2009/examples/IMAQ/IMAQdx Examples.llb/Flush Control Value.vi"/>
-			<Item Name="Update Value Control.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2009/examples/IMAQ/IMAQdx Examples.llb/Update Value Control.vi"/>
-			<Item Name="Add Attribute To Tree.vi" Type="VI" URL="/C/Program Files/National Instruments/LabVIEW 2009/examples/IMAQ/IMAQdx Examples.llb/Add Attribute To Tree.vi"/>
 			<Item Name="UserPalette-xRainbows.vi" Type="VI" URL="../../CS Framework/LVSCC/LV2009/GPL/Projects/cs-framework/CSClass/CSPOLARIS/UtilityVIs/CameraUtility/UserPalette-xRainbows.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="save control values.vi" Type="VI" URL="../../CS Framework/LVSCC/LV2009/GPL/Projects/cs-framework/CSClass/CSPOLARIS/UtilityVIs/save control values.vi"/>
-			<Item Name="retrieve control values.vi" Type="VI" URL="../../CS Framework/LVSCC/LV2009/GPL/Projects/cs-framework/CSClass/CSPOLARIS/UtilityVIs/retrieve control values.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Test XDisplay" Type="EXE">
+				<Property Name="App_applicationGUID" Type="Str">{D23B6141-B73B-40A8-98B8-E87B49F9F904}</Property>
+				<Property Name="App_applicationName" Type="Str">Test XDisplay.exe</Property>
+				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
+				<Property Name="App_fileDescription" Type="Str">Test XDisplay</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{EC738497-3A10-4DE1-A04F-CDC26556C583}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{FB0E6B98-24A2-4C5E-9AD1-91994A7B457A}</Property>
+				<Property Name="App_internalName" Type="Str">Test XDisplay</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
+				<Property Name="App_productName" Type="Str">Test XDisplay</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Test XDisplay</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">Test XDisplay.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Test XDisplay/Test XDisplay.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Test XDisplay/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3D3B23E9-D916-406E-B173-CDB06006DBDF}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/test xctrl.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

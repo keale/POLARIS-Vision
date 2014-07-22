@@ -7,6 +7,17 @@
 	<Property Name="NI.XItem.Express" Type="Bool">false</Property>
 	<Property Name="NI.XItem.Name" Type="Str">XControl 2</Property>
 	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="ImageSource.ctl" Type="VI" URL="../Properties/ImageSource.ctl"/>
+		<Item Name="Data.ctl" Type="Ability VI" URL="../Data.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">Data</Property>
+		</Item>
+		<Item Name="State.ctl" Type="Ability VI" URL="../State.ctl">
+			<Property Name="NI.XItem.Name" Type="Str">State</Property>
+		</Item>
+		<Item Name="DisplaySettings.ctl" Type="VI" URL="../DisplaySettings.ctl"/>
+		<Item Name="Named ROI.ctl" Type="VI" URL="../Named ROI.ctl"/>
+	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Item Name="Read State" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Read State</Property>
@@ -45,20 +56,27 @@
 			<Item Name="image name prefix Write 2.vi" Type="Property VI" URL="../Properties/image name prefix Write 2.vi"/>
 		</Item>
 	</Item>
-	<Item Name="Typedefs" Type="Folder">
-		<Item Name="ImageSource.ctl" Type="VI" URL="../Properties/ImageSource.ctl"/>
-		<Item Name="Data.ctl" Type="Ability VI" URL="../Data.ctl">
-			<Property Name="NI.XItem.Name" Type="Str">Data</Property>
-		</Item>
-		<Item Name="State.ctl" Type="Ability VI" URL="../State.ctl">
-			<Property Name="NI.XItem.Name" Type="Str">State</Property>
-		</Item>
-		<Item Name="DisplaySettings.ctl" Type="VI" URL="../DisplaySettings.ctl"/>
-		<Item Name="Named ROI.ctl" Type="VI" URL="../Named ROI.ctl"/>
-	</Item>
 	<Item Name="Methods" Type="Folder">
 		<Item Name="Get Displayed Image.vi" Type="Method VI" URL="../Methods/Get Displayed Image.vi"/>
 		<Item Name="Set Display Settings.vi" Type="Method VI" URL="../Methods/Set Display Settings.vi"/>
+	</Item>
+	<Item Name="Overline" Type="Folder">
+		<Item Name="Overlay LineOut from ROI XDisplay.vi" Type="VI" URL="../Overlay LineOut from ROI XDisplay.vi"/>
+		<Item Name="Overlay LineOut XDisplay.vi" Type="VI" URL="../Overlay LineOut XDisplay.vi"/>
+		<Item Name="Overline Cross.vi" Type="VI" URL="../Overline Cross.vi"/>
+	</Item>
+	<Item Name="Utility" Type="Folder">
+		<Item Name="Read Display Settings from File.vi" Type="VI" URL="../Read Display Settings from File.vi"/>
+		<Item Name="Write Display Settings 2 File.vi" Type="VI" URL="../Write Display Settings 2 File.vi"/>
+		<Item Name="FWHM XDisplay.vi" Type="VI" URL="../FWHM XDisplay.vi"/>
+		<Item Name="Apply min Threshold.vi" Type="VI" URL="../Apply min Threshold.vi"/>
+	</Item>
+	<Item Name="Dialogs" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="New BG Msg.vi" Type="VI" URL="../New BG Msg.vi"/>
+		<Item Name="Display Settings.vi" Type="VI" URL="../Display Settings.vi"/>
+		<Item Name="Open Dialog VI.vi" Type="VI" URL="../Open Dialog VI.vi"/>
+		<Item Name="Enter ROI Name.vi" Type="VI" URL="../Enter ROI Name.vi"/>
 	</Item>
 	<Item Name="Init.vi" Type="Ability VI" URL="../Init.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Init</Property>
@@ -66,15 +84,4 @@
 	<Item Name="Facade.vi" Type="Ability VI" URL="../Facade.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 	</Item>
-	<Item Name="New BG Msg.vi" Type="VI" URL="../New BG Msg.vi"/>
-	<Item Name="Display Settings.vi" Type="VI" URL="../Display Settings.vi"/>
-	<Item Name="Apply min Threshold.vi" Type="VI" URL="../Apply min Threshold.vi"/>
-	<Item Name="Overline Cross.vi" Type="VI" URL="../Overline Cross.vi"/>
-	<Item Name="Enter ROI Name.vi" Type="VI" URL="../Enter ROI Name.vi"/>
-	<Item Name="Open Dialog VI.vi" Type="VI" URL="../Open Dialog VI.vi"/>
-	<Item Name="Write Display Settings 2 File.vi" Type="VI" URL="../Write Display Settings 2 File.vi"/>
-	<Item Name="Read Display Settings from File.vi" Type="VI" URL="../Read Display Settings from File.vi"/>
-	<Item Name="FWHM XDisplay.vi" Type="VI" URL="../FWHM XDisplay.vi"/>
-	<Item Name="Overlay LineOut from ROI XDisplay.vi" Type="VI" URL="../Overlay LineOut from ROI XDisplay.vi"/>
-	<Item Name="Overlay LineOut XDisplay.vi" Type="VI" URL="../Overlay LineOut XDisplay.vi"/>
 </XControl>
