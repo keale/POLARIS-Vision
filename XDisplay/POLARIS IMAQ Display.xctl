@@ -57,6 +57,7 @@
 		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
+		<Item Name="Save Display Settings2File.vi" Type="Method VI" URL="../Methods/Save Display Settings2File.vi"/>
 		<Item Name="Get Displayed Image.vi" Type="Method VI" URL="../Methods/Get Displayed Image.vi"/>
 		<Item Name="Set Display Settings.vi" Type="Method VI" URL="../Methods/Set Display Settings.vi"/>
 	</Item>
