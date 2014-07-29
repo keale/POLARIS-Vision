@@ -25,7 +25,7 @@
 		<Item Name="POLARIS Vision utility.lvlib" Type="Library" URL="../Utility/POLARIS Vision utility.lvlib"/>
 		<Item Name="POLARIS IMAQ Display.xctl" Type="XControl" URL="../XDisplay/POLARIS IMAQ Display.xctl"/>
 		<Item Name="IMAQdx Cam.lvclass" Type="LVClass" URL="../IMAQdx Cam/IMAQdx Cam.lvclass"/>
-		<Item Name="test xctrl.vi" Type="VI" URL="../test xctrl.vi"/>
+		<Item Name="POLARIS Camera.vi" Type="VI" URL="../POLARIS Camera.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
@@ -80,33 +80,36 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Test XDisplay" Type="EXE">
+			<Item Name="POLARIS Camera" Type="EXE">
 				<Property Name="App_applicationGUID" Type="Str">{D23B6141-B73B-40A8-98B8-E87B49F9F904}</Property>
-				<Property Name="App_applicationName" Type="Str">Test XDisplay.exe</Property>
+				<Property Name="App_applicationName" Type="Str">POLARIS Camera.exe</Property>
 				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">Test XDisplay</Property>
+				<Property Name="App_fileDescription" Type="Str">POLARIS Camera</Property>
 				<Property Name="App_fileVersion.major" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{EC738497-3A10-4DE1-A04F-CDC26556C583}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{FB0E6B98-24A2-4C5E-9AD1-91994A7B457A}</Property>
-				<Property Name="App_internalName" Type="Str">Test XDisplay</Property>
+				<Property Name="App_internalName" Type="Str">POLARIS Camera</Property>
 				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
-				<Property Name="App_productName" Type="Str">Test XDisplay</Property>
+				<Property Name="App_productName" Type="Str">POLARIS Camera</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Test XDisplay</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">POLARIS Camera</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Destination[0].destName" Type="Str">Test XDisplay.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Test XDisplay/Test XDisplay.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">POLARIS Camera.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Camera/POLARIS Camera.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Test XDisplay/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Camera/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3D3B23E9-D916-406E-B173-CDB06006DBDF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D9D4DC1E-0E24-404B-8262-794305FF8E2F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/test xctrl.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Camera.vi</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
