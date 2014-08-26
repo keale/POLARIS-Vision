@@ -4,4 +4,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="save control values.vi" Type="VI" URL="../save control values.vi"/>
 	<Item Name="retrieve control values.vi" Type="VI" URL="../retrieve control values.vi"/>
+	<Item Name="UserPalette-xRainbows.vi" Type="VI" URL="../UserPalette-xRainbows.vi"/>
 </Library>

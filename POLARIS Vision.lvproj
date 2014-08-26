@@ -86,13 +86,10 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="UserPalette-xRainbows.vi" Type="VI" URL="../../CS Framework/LVSCC/LV2009/GPL/Projects/cs-framework/CSClass/CSPOLARIS/UtilityVIs/CameraUtility/UserPalette-xRainbows.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
-			<Item Name="retrieve control values.vi" Type="VI" URL="../../CS Framework/LVSCC/LV2009/GPL/Projects/cs-framework/CSClass/CSPOLARIS/UtilityVIs/retrieve control values.vi"/>
-			<Item Name="save control values.vi" Type="VI" URL="../../CS Framework/LVSCC/LV2009/GPL/Projects/cs-framework/CSClass/CSPOLARIS/UtilityVIs/save control values.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="POLARIS Camera" Type="EXE">
