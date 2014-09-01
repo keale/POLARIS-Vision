@@ -32,6 +32,11 @@
 		<Item Name="POLARIS Vision utility.lvlib" Type="Library" URL="../Utility/POLARIS Vision utility.lvlib"/>
 		<Item Name="POLARIS IMAQ Display.xctl" Type="XControl" URL="../XDisplay/POLARIS IMAQ Display.xctl"/>
 		<Item Name="IMAQdx Cam.lvclass" Type="LVClass" URL="../IMAQdx Cam/IMAQdx Cam.lvclass"/>
+		<Item Name="test write header.vi" Type="VI" URL="../Utility/Write PNG Header/test write header.vi"/>
+		<Item Name="test read png with user info.vi" Type="VI" URL="../Utility/Write PNG Header/test read png with user info.vi"/>
+		<Item Name="read png header.vi" Type="VI" URL="../Utility/Write PNG Header/read png header.vi"/>
+		<Item Name="write named variant txt.vi" Type="VI" URL="../../tests/Variant to textfile/write named variant txt.vi"/>
+		<Item Name="read named variant txt.vi" Type="VI" URL="../../tests/Variant to textfile/read named variant txt.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
@@ -80,6 +85,9 @@
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="IMAQ Overlay ROI" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay ROI"/>
+				<Item Name="IMAQ Read Image And Vision Info" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ Read Image And Vision Info"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -91,6 +99,46 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
+			<Item Name="NI_PNGCustomString.dll" Type="Document" URL="../Utility/Write PNG Header/NI_PNGCustomString.dll"/>
+			<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="../Utility/OpenG/Type Descriptor Enumeration__ogtk.ctl"/>
+			<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+			<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
+			<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
+			<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
+			<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
+			<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
+			<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Format Variant Into String__ogtk.vi"/>
+			<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
+			<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
+			<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="../Utility/OpenG/error/error.llb/Build Error Cluster__ogtk.vi"/>
+			<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
+			<Item Name="Get PString__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
+			<Item Name="Strip Units__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
+			<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
+			<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
+			<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
+			<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
+			<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
+			<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
+			<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
+			<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
+			<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Trim Whitespace__ogtk.vi"/>
+			<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
+			<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
+			<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
+			<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
+			<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
+			<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+			<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
+			<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
+			<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
+			<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
+			<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
+			<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
+			<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
+			<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
+			<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
+			<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="POLARIS Camera" Type="EXE">

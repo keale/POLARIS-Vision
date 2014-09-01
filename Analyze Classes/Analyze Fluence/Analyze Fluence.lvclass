@@ -73,13 +73,13 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
 	<Item Name="Fluence in Area.vi" Type="VI" URL="../Fluence in Area.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!**!!!!&amp;1!A!$@`````!!5*!)!!!!!!!1!%!!!!!1!!!!!!!!!!!&amp;M!]1!!!!!!!!!"$EF.16%A37VB:W5O9X2M!%2!=!!&gt;#5F.16&amp;*&lt;7&amp;H:1!"!!!*35V"55FN97&gt;F#1#!!!!!!!%!"!!!!!%!!!!!!!!-47&amp;T;W6E)%FN97&gt;F!!"&lt;!0%!!!!!!!!!!1Z*45&amp;2)%FN97&gt;F,G.U&lt;!"%1(!!(1F*45&amp;237VB:W5!!1!!#5F.16&amp;*&lt;7&amp;H:1E!A!!!!!!"!!1!!!!"!!!!!!!!$%^S;7&gt;J&lt;C"*&lt;7&amp;H:1!!"!!!!!V!#A!(27ZF=G&gt;J:1!61!I!$E:M&gt;76O9W5A3C^D&lt;6YS!!!81!I!%7.B&lt;'FC=G&amp;U;7^O)'VN,X"Y!"6!#A!/27ZF=G&gt;Z)'FO)%&amp;S:7%!!"6!!Q!/5WF[:3"P:C"S:7&gt;J&lt;WY!!!N!!Q!%4'6G&gt;!!!#5!$!!.5&lt;X!!#U!$!!63;7&gt;I&gt;!!.1!-!"E*P&gt;(2P&lt;1!!)%"1!!1!#1!+!!M!$"".98AA:GRV:7ZD:3"B=G6B!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!/!!]!%".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!^!"!!*&lt;7&amp;Y)(:B&lt;(6F!":!5!!$!!Y!$Q!1#76S=G^S)'^V&gt;!"-!0!!%!!"!!)!!Q!$!!-!"!!&amp;!!9!"Q!)!!U!%1!$!!-!%A!4!Q!"#!I!#A!!!!!!!!!+!!U(#A!."1A!#1!+!!!!!!!*!!U,!!!!!1!5!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!):!!!!&amp;A!A!$@`````!!5*!)!!!!!!!1!%!!!!!1!!!!!!!!!!!&amp;M!]1!!!!!!!!!"$EF.16%A37VB:W5O9X2M!%2!=!!&gt;#5F.16&amp;*&lt;7&amp;H:1!"!!!*35V"55FN97&gt;F#1#!!!!!!!%!"!!!!!%!!!!!!!!-47&amp;T;W6E)%FN97&gt;F!!!.1!1!"UZV&lt;76S;7-!(E"!!!,``````````Q!#$%^S;7&gt;J&lt;C"*&lt;7&amp;H:1!!"!!!!!V!#A!(27ZF=G&gt;J:1!61!I!$E:M&gt;76O9W5A3C^D&lt;6YS!!!81!I!%7.B&lt;'FC=G&amp;U;7^O)'VN,X"Y!"6!#A!/27ZF=G&gt;Z)'FO)%&amp;S:7%!!"6!!Q!/5WF[:3"P:C"S:7&gt;J&lt;WY!!!N!!Q!%4'6G&gt;!!!#5!$!!.5&lt;X!!#U!$!!63;7&gt;I&gt;!!.1!-!"E*P&gt;(2P&lt;1!!)%"1!!1!#A!,!!Q!$2".98AA:GRV:7ZD:3"B=G6B!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!0!"!!%2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!^!"!!*&lt;7&amp;Y)(:B&lt;(6F!":!5!!$!!]!%!!2#76S=G^S)'^V&gt;!"-!0!!%!!"!!-!"!!%!!1!"1!'!!=!#!!*!!Y!%A!%!!1!%Q!5!Q!"#")!%!!!!!!!!!!+!!U(#A!."1A!#1!+!!!!!!!*!!U,!!!!!1!6!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">128</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1879585296</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Fluence in multiple areas.vi" Type="VI" URL="../Fluence in multiple areas.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!-E!!!!'1!W1(!!(A!!'2&gt;"&lt;G&amp;M?8JF)%:M&gt;76O9W5O&lt;(:D&lt;'&amp;T=Q!317ZB&lt;(F[:3"'&lt;(6F&lt;G.F)'FO!!!%!!!!.E"Q!"Y!!"E817ZB&lt;(F[:3"'&lt;(6F&lt;G.F,GRW9WRB=X-!%U&amp;O97RZ?G5A2GRV:7ZD:3"P&gt;81!)!!X`````Q!&amp;#1#!!!!!!!%!"!!!!!%!!!!!!!!!!!"8!0%!!!!!!!!!!1Z*45&amp;2)%FN97&gt;F,G.U&lt;!"!1(!!(1F*45&amp;237VB:W5!!1!$#5F.16&amp;*&lt;7&amp;H:1E!A!!!!!!"!!1!!!!"!!!!!!!!#%FN97&gt;F)'FO!!"&lt;!0%!!!!!!!!!!1Z*45&amp;2)%FN97&gt;F,G.U&lt;!"%1(!!(1F*45&amp;237VB:W5!!1!$#5F.16&amp;*&lt;7&amp;H:1E!A!!!!!!"!!1!!!!"!!!!!!!!$5FN97&gt;F)%2T&gt;#"0&gt;81!$5!+!!:&amp;&lt;G6S:XE!!"F!#A!347&amp;Y)%:M&gt;76O9W5A3C^D&lt;6YS!!!91#%31X*F982F)%^W:8*M98EI6#E`!!!61!I!$E:M&gt;76O9W5A3C^D&lt;6YS!!!61!I!$E6O:8*H?3"J&lt;C""=G6B!!!01!1!#7VB?#"W97RV:1!,1!-!"%RF:H1!!!F!!Q!$6'^Q!!N!!Q!&amp;5GFH;(1!$5!$!!:#&lt;X2U&lt;WU!!#"!5!!%!!Q!$1!/!!]147&amp;Y)':M&gt;76O9W5A98*F91!!1Q$RT`&amp;]NA!!!!)817ZB&lt;(F[:3"'&lt;(6F&lt;G.F,GRW9WRB=X-12GRV:7ZD:3"*&lt;G:P,G.U&lt;!!3!&amp;!!"!!*!!I!#Q!1!"J!1!!"`````Q!2$7:M&gt;76O9W5A;7ZG&lt;X-!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!%Q!5!"54:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71&amp;!!!Q!4!"1!&amp;1FF=H*P=C"P&gt;81!81$Q!"!!!!!"!!%!!1!#!!1!"1!'!!=!#!!3!"9!!1!"!!%!&amp;Q-!!1A+!!!!!!!!!!U!#A!."1A!#1!)!!E!#A!!!!!!!!!.#Q!2!!!!!!%!!!!!!!!!!!!!!!!!!1!9!!!!!!</Property>
@@ -98,5 +98,14 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
+	<Item Name="Generate Report as INI Section.vi" Type="VI" URL="../Generate Report as INI Section.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(=!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"N!&amp;A!"#W.P&lt;G:J:S"E982B!!:S:7:O&gt;7U!!%M!]&lt;GGFI1!!!!#%5Z*8UR71W^O:GFH,GRW&lt;'FC&amp;E.P&lt;G:J:S"%982B)&amp;*F:EZV&lt;3ZD&gt;'Q!'E"Q!!%!!1!&amp;#F*F:GZV&lt;3"P&gt;81!!$:!=!!?!!!:&amp;U&amp;O97RZ?G5A2GRV:7ZD:3ZM&gt;G.M98.T!"."&lt;G&amp;M?8JF)%:M&gt;76O9W5A&lt;X6U!""!5QJ198*B&lt;76U:8*T!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!R!5Q&gt;3:8.V&lt;(2T!%E!]&lt;GGFI1!!!!#%5Z*8UR71W^O:GFH,GRW&lt;'FC&amp;E.P&lt;G:J:S"%982B)&amp;*F:EZV&lt;3ZD&gt;'Q!'%"Q!!%!!1!&amp;#6*F:GZV&lt;3"J&lt;A!W1(!!(A!!'2&gt;"&lt;G&amp;M?8JF)%:M&gt;76O9W5O&lt;(:D&lt;'&amp;T=Q!317ZB&lt;(F[:3"'&lt;(6F&lt;G.F)'FO!!!]!0!!$!!$!!1!"A!(!!1!"!!%!!A!#1!+!!M!$!-!!(A.#!!!$1K.#Q!!!!!!!!A!#A!)!!I!EA!!!!!"!!U!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
 </LVClass>

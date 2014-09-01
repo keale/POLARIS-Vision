@@ -5,4 +5,7 @@
 	<Item Name="save control values.vi" Type="VI" URL="../save control values.vi"/>
 	<Item Name="retrieve control values.vi" Type="VI" URL="../retrieve control values.vi"/>
 	<Item Name="UserPalette-xRainbows.vi" Type="VI" URL="../UserPalette-xRainbows.vi"/>
+	<Item Name="PNG Header.vi" Type="VI" URL="../Write PNG Header/PNG Header.vi"/>
+	<Item Name="Section to Variant Attributes.vi" Type="VI" URL="../Section to Variant Attributes.vi"/>
+	<Item Name="Variant Attributes to Section.vi" Type="VI" URL="../Variant Attributes to Section.vi"/>
 </Library>
