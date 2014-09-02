@@ -139,6 +139,15 @@
 			<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
 			<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 			<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
+			<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Read Section Cluster__ogtk.vi"/>
+			<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
+			<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Read Key (Variant)__ogtk.vi"/>
+			<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
+			<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
+			<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
+			<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
+			<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
+			<Item Name="Get Default Data from TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Default Data from TD__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="POLARIS Camera" Type="EXE">

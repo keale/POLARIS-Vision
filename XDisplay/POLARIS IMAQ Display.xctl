@@ -113,6 +113,16 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 			<Item Name="Results Read.vi" Type="Property VI" URL="../Properties/Results Read.vi"/>
 			<Item Name="Results Write.vi" Type="Property VI" URL="../Properties/Results Write.vi"/>
 		</Item>
+		<Item Name="Time in Filename" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Time in Filename</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Time in Filename</Property>
+			<Item Name="Time in Filename Write.vi" Type="Property VI" URL="../Properties/Time in Filename Write.vi"/>
+		</Item>
+		<Item Name="Save Report" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Save Report</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Save Report</Property>
+			<Item Name="Save Report Write.vi" Type="Property VI" URL="../Properties/Save Report Write.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
 		<Item Name="Save Image.vi" Type="Method VI" URL="../Methods/Save Image.vi"/>
@@ -156,4 +166,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 	</Item>
 	<Item Name="Image.rtm" Type="Document" URL="../Image.rtm"/>
+	<Item Name="Load Settings from Report.vi" Type="VI" URL="../Load Settings from Report.vi">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
 </XControl>
