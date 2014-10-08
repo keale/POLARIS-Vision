@@ -10,6 +10,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="POLARIS Programms" Type="Folder">
+			<Item Name="icons" Type="Folder">
+				<Item Name="TA Focus POLARIS Vision.ico" Type="Document" URL="../POLARIS Programme/TA Focus POLARIS Vision.ico"/>
+				<Item Name="TA FF in POLARIS Vision.ico" Type="Document" URL="../POLARIS Programme/TA FF in POLARIS Vision.ico"/>
+			</Item>
+			<Item Name="Target Focus POLARIS Vision.vi" Type="VI" URL="../POLARIS Programme/Target Focus POLARIS Vision.vi"/>
+			<Item Name="FF Target IN POLARIS Vision.vi" Type="VI" URL="../POLARIS Programme/FF Target IN POLARIS Vision.vi"/>
+			<Item Name="POLARIS Fluence Camera.vi" Type="VI" URL="../POLARIS Fluence Camera.vi"/>
+		</Item>
 		<Item Name="examples" Type="Folder">
 			<Item Name="IMAQdx Class" Type="Folder">
 				<Item Name="test attributes file.vi" Type="VI" URL="../IMAQdx Cam/test attributes file.vi"/>
@@ -17,10 +26,8 @@
 				<Item Name="test 4 cams.vi" Type="VI" URL="../test 4 cams.vi"/>
 				<Item Name="listener mode.vi" Type="VI" URL="../listener mode.vi"/>
 			</Item>
-			<Item Name="POLARIS two Cameras.vi" Type="VI" URL="../POLARIS two Cameras.vi"/>
 			<Item Name="POLARIS Image Viewer.vi" Type="VI" URL="../POLARIS Image Viewer.vi"/>
 			<Item Name="POLARIS Focus Camera.vi" Type="VI" URL="../POLARIS Focus Camera.vi"/>
-			<Item Name="POLARIS Fluence Camera.vi" Type="VI" URL="../POLARIS Fluence Camera.vi"/>
 			<Item Name="POLARIS Camera.vi" Type="VI" URL="../POLARIS Camera.vi"/>
 		</Item>
 		<Item Name="Analyze Classes" Type="Folder">
@@ -100,54 +107,11 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
 			<Item Name="NI_PNGCustomString.dll" Type="Document" URL="../Utility/Write PNG Header/NI_PNGCustomString.dll"/>
-			<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="../Utility/OpenG/Type Descriptor Enumeration__ogtk.ctl"/>
-			<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 			<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 			<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
-			<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
-			<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
-			<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 			<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Format Variant Into String__ogtk.vi"/>
-			<Item Name="Get Strings from Enum__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Strings from Enum__ogtk.vi"/>
-			<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
-			<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="../Utility/OpenG/error/error.llb/Build Error Cluster__ogtk.vi"/>
-			<Item Name="Get Strings from Enum TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Strings from Enum TD__ogtk.vi"/>
-			<Item Name="Get PString__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get PString__ogtk.vi"/>
-			<Item Name="Strip Units__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Strip Units__ogtk.vi"/>
-			<Item Name="Get Array Element TDEnum__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Array Element TDEnum__ogtk.vi"/>
-			<Item Name="Array Size(s)__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Array Size(s)__ogtk.vi"/>
-			<Item Name="Get Waveform Type Enum from Data__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Waveform Type Enum from Data__ogtk.vi"/>
-			<Item Name="Get Waveform Type Enum from TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Waveform Type Enum from TD__ogtk.vi"/>
-			<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
-			<Item Name="Get Refnum Type Enum from Data__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Refnum Type Enum from Data__ogtk.vi"/>
-			<Item Name="Get Refnum Type Enum from TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Refnum Type Enum from TD__ogtk.vi"/>
-			<Item Name="Resolve Timestamp Format__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Resolve Timestamp Format__ogtk.vi"/>
-			<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Trim Whitespace__ogtk.vi"/>
-			<Item Name="Trim Whitespace (String)__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Trim Whitespace (String)__ogtk.vi"/>
-			<Item Name="Trim Whitespace (String Array)__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Trim Whitespace (String Array)__ogtk.vi"/>
-			<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
-			<Item Name="Split Cluster TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Split Cluster TD__ogtk.vi"/>
-			<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
-			<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
-			<Item Name="Get Last PString__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Last PString__ogtk.vi"/>
-			<Item Name="Set Data Name__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Set Data Name__ogtk.vi"/>
-			<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
-			<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
-			<Item Name="Reshape Array to 1D VArray__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Reshape Array to 1D VArray__ogtk.vi"/>
-			<Item Name="Encode Section and Key Names__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Encode Section and Key Names__ogtk.vi"/>
-			<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
-			<Item Name="Format Numeric Array__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Format Numeric Array__ogtk.vi"/>
-			<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 			<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
 			<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Read Section Cluster__ogtk.vi"/>
-			<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
-			<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Read Key (Variant)__ogtk.vi"/>
-			<Item Name="Set Enum String Value__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Set Enum String Value__ogtk.vi"/>
-			<Item Name="Reshape 1D Array__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Reshape 1D Array__ogtk.vi"/>
-			<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
-			<Item Name="Get Element TD from Array TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Element TD from Array TD__ogtk.vi"/>
-			<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
-			<Item Name="Get Default Data from TD__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Default Data from TD__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="POLARIS Camera" Type="EXE">
@@ -256,10 +220,78 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/examples/POLARIS Focus Camera.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/examples/POLARIS Fluence Camera.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/POLARIS Programms/POLARIS Fluence Camera.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
+			</Item>
+			<Item Name="TA FF IN POLARIS Vision" Type="EXE">
+				<Property Name="App_applicationGUID" Type="Str">{292A381F-A70C-4F36-84F7-8547A9C1683C}</Property>
+				<Property Name="App_applicationName" Type="Str">TA FF IN POLARIS Vision.exe</Property>
+				<Property Name="App_companyName" Type="Str">Helmholtz-Institut Jena</Property>
+				<Property Name="App_fileDescription" Type="Str">TA FF IN POLARIS Vision</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{20BD1362-3A7A-475D-8255-A7D8FDD8D2B2}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5AE7DCEA-7394-45B2-AD5A-3B2446ACDC2B}</Property>
+				<Property Name="App_internalName" Type="Str">TA FF IN POLARIS Vision</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Helmholtz-Institut Jena</Property>
+				<Property Name="App_productName" Type="Str">TA FF IN POLARIS Vision</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TA FF IN POLARIS Vision</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">TA FF IN POLARIS Vision.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA FF IN POLARIS Vision/TA FF IN POLARIS Vision.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA FF IN POLARIS Vision/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA FF in POLARIS Vision.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{88E83D67-C5A4-4DE2-96A3-4A7F61DDE338}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+			</Item>
+			<Item Name="TA Focus POLARIS Vision" Type="EXE">
+				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2009/vi.lib/AppBuilder/AB_Classes/EXE/AB_EXE.lvclass</Property>
+				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2009/vi.lib/AppBuilder/AB_Classes/Build/UI/AB_UI_Frmwk_Build.lvclass</Property>
+				<Property Name="App_applicationGUID" Type="Str">{E018826E-C337-43B0-8D37-2936B9E8EF79}</Property>
+				<Property Name="App_applicationName" Type="Str">TA Focus POLARIS Vision.exe</Property>
+				<Property Name="App_companyName" Type="Str">Helmholtz-Institut Jena</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{2F1AA3B2-57C7-4D63-9A86-A71AC39060CF}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{B875F23B-B314-412F-B79F-1B2A95E645EB}</Property>
+				<Property Name="App_internalName" Type="Str">TA Focus POLARIS Vision</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Helmholtz-Institut Jena</Property>
+				<Property Name="App_productName" Type="Str">TA Focus POLARIS Vision</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TA Focus POLARIS Vision</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">TA Focus POLARIS Vision.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/TA Focus POLARIS Vision.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA Focus POLARIS Vision.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{88E83D67-C5A4-4DE2-96A3-4A7F61DDE338}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/POLARIS Programms/Target Focus POLARIS Vision.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>
