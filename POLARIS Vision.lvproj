@@ -185,6 +185,72 @@
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
+			<Item Name="TA Focus POLARIS Vision" Type="EXE">
+				<Property Name="App_applicationGUID" Type="Str">{E018826E-C337-43B0-8D37-2936B9E8EF79}</Property>
+				<Property Name="App_applicationName" Type="Str">TA Focus POLARIS Vision.exe</Property>
+				<Property Name="App_companyName" Type="Str">Helmholtz-Institut Jena</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{2F1AA3B2-57C7-4D63-9A86-A71AC39060CF}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{B875F23B-B314-412F-B79F-1B2A95E645EB}</Property>
+				<Property Name="App_internalName" Type="Str">TA Focus POLARIS Vision</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Helmholtz-Institut Jena</Property>
+				<Property Name="App_productName" Type="Str">TA Focus POLARIS Vision</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TA Focus POLARIS Vision</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">TA Focus POLARIS Vision.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/TA Focus POLARIS Vision.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA Focus POLARIS Vision.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F3749801-8F8A-44A9-A1D4-26EA8306268E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/POLARIS Programms/Target Focus POLARIS Vision.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+			<Item Name="TA FF IN POLARIS Vision" Type="EXE">
+				<Property Name="App_applicationGUID" Type="Str">{292A381F-A70C-4F36-84F7-8547A9C1683C}</Property>
+				<Property Name="App_applicationName" Type="Str">TA FF IN POLARIS Vision.exe</Property>
+				<Property Name="App_companyName" Type="Str">Helmholtz-Institut Jena</Property>
+				<Property Name="App_fileDescription" Type="Str">TA FF IN POLARIS Vision</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{20BD1362-3A7A-475D-8255-A7D8FDD8D2B2}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5AE7DCEA-7394-45B2-AD5A-3B2446ACDC2B}</Property>
+				<Property Name="App_internalName" Type="Str">TA FF IN POLARIS Vision</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Helmholtz-Institut Jena</Property>
+				<Property Name="App_productName" Type="Str">TA FF IN POLARIS Vision</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TA FF IN POLARIS Vision</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">TA FF IN POLARIS Vision.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA FF IN POLARIS Vision/TA FF IN POLARIS Vision.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA FF IN POLARIS Vision/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA FF in POLARIS Vision.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{88E83D67-C5A4-4DE2-96A3-4A7F61DDE338}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+			</Item>
 			<Item Name="POLARIS Fluence Camera" Type="EXE">
 				<Property Name="App_applicationGUID" Type="Str">{EE3576D0-6582-48C4-AA11-85DD964FF6D8}</Property>
 				<Property Name="App_applicationName" Type="Str">POLARIS Fluence Camera.exe</Property>
@@ -224,74 +290,6 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
-			</Item>
-			<Item Name="TA FF IN POLARIS Vision" Type="EXE">
-				<Property Name="App_applicationGUID" Type="Str">{292A381F-A70C-4F36-84F7-8547A9C1683C}</Property>
-				<Property Name="App_applicationName" Type="Str">TA FF IN POLARIS Vision.exe</Property>
-				<Property Name="App_companyName" Type="Str">Helmholtz-Institut Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">TA FF IN POLARIS Vision</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{20BD1362-3A7A-475D-8255-A7D8FDD8D2B2}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{5AE7DCEA-7394-45B2-AD5A-3B2446ACDC2B}</Property>
-				<Property Name="App_internalName" Type="Str">TA FF IN POLARIS Vision</Property>
-				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Helmholtz-Institut Jena</Property>
-				<Property Name="App_productName" Type="Str">TA FF IN POLARIS Vision</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TA FF IN POLARIS Vision</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Destination[0].destName" Type="Str">TA FF IN POLARIS Vision.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA FF IN POLARIS Vision/TA FF IN POLARIS Vision.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA FF IN POLARIS Vision/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA FF in POLARIS Vision.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{88E83D67-C5A4-4DE2-96A3-4A7F61DDE338}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-			</Item>
-			<Item Name="TA Focus POLARIS Vision" Type="EXE">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2009/vi.lib/AppBuilder/AB_Classes/EXE/AB_EXE.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2009/vi.lib/AppBuilder/AB_Classes/Build/UI/AB_UI_Frmwk_Build.lvclass</Property>
-				<Property Name="App_applicationGUID" Type="Str">{E018826E-C337-43B0-8D37-2936B9E8EF79}</Property>
-				<Property Name="App_applicationName" Type="Str">TA Focus POLARIS Vision.exe</Property>
-				<Property Name="App_companyName" Type="Str">Helmholtz-Institut Jena</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{2F1AA3B2-57C7-4D63-9A86-A71AC39060CF}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{B875F23B-B314-412F-B79F-1B2A95E645EB}</Property>
-				<Property Name="App_internalName" Type="Str">TA Focus POLARIS Vision</Property>
-				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Helmholtz-Institut Jena</Property>
-				<Property Name="App_productName" Type="Str">TA Focus POLARIS Vision</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TA Focus POLARIS Vision</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Destination[0].destName" Type="Str">TA Focus POLARIS Vision.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/TA Focus POLARIS Vision.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA Focus POLARIS Vision.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{88E83D67-C5A4-4DE2-96A3-4A7F61DDE338}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/POLARIS Programms/Target Focus POLARIS Vision.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>
