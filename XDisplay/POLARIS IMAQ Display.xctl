@@ -148,6 +148,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		<Item Name="FWHM XDisplay.vi" Type="VI" URL="../FWHM XDisplay.vi"/>
 		<Item Name="Apply min Threshold.vi" Type="VI" URL="../Apply min Threshold.vi"/>
 		<Item Name="create icon from picdata.vi" Type="VI" URL="../zoom icons/create icon from picdata.vi"/>
+		<Item Name="DisplaySettings 2 INI Section.vi" Type="VI" URL="../DisplaySettings 2 INI Section.vi"/>
 	</Item>
 	<Item Name="Dialogs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

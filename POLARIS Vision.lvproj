@@ -44,6 +44,8 @@
 		<Item Name="read png header.vi" Type="VI" URL="../Utility/Write PNG Header/read png header.vi"/>
 		<Item Name="write named variant txt.vi" Type="VI" URL="../../tests/Variant to textfile/write named variant txt.vi"/>
 		<Item Name="read named variant txt.vi" Type="VI" URL="../../tests/Variant to textfile/read named variant txt.vi"/>
+		<Item Name="ROI 2 INI Section.vi" Type="VI" URL="../Utility/ROI 2 INI Section.vi"/>
+		<Item Name="ROI from INI Section.vi" Type="VI" URL="../Utility/ROI from INI Section.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
@@ -110,8 +112,8 @@
 			<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
 			<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
 			<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Format Variant Into String__ogtk.vi"/>
-			<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
 			<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="../Utility/OpenG/variantconfig/variantconfig.llb/Read Section Cluster__ogtk.vi"/>
+			<Item Name="imaqdx.rc" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/objmgr/imaqdx.rc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="POLARIS Camera" Type="EXE">
