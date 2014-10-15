@@ -123,6 +123,12 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Save Report</Property>
 			<Item Name="Save Report Write.vi" Type="Property VI" URL="../Properties/Save Report Write.vi"/>
 		</Item>
+		<Item Name="Appl Parameter" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Appl Parameter</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Appl Parameter</Property>
+			<Item Name="Appl Parameter Read.vi" Type="Property VI" URL="../Properties/Appl Parameter Read.vi"/>
+			<Item Name="Appl Parameter Write.vi" Type="Property VI" URL="../Properties/Appl Parameter Write.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
 		<Item Name="Load Display Settings from File.vi" Type="Method VI" URL="../Methods/Load Display Settings from File.vi"/>
@@ -156,6 +162,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		<Item Name="Display Settings.vi" Type="VI" URL="../Display Settings.vi"/>
 		<Item Name="Open Dialog VI.vi" Type="VI" URL="../Open Dialog VI.vi"/>
 		<Item Name="Enter ROI Name.vi" Type="VI" URL="../Enter ROI Name.vi"/>
+		<Item Name="Load Settings from Report.vi" Type="VI" URL="../Load Settings from Report.vi"/>
 	</Item>
 	<Item Name="Analyze" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -168,7 +175,4 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 	</Item>
 	<Item Name="Image.rtm" Type="Document" URL="../Image.rtm"/>
-	<Item Name="Load Settings from Report.vi" Type="VI" URL="../Load Settings from Report.vi">
-		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-	</Item>
 </XControl>
