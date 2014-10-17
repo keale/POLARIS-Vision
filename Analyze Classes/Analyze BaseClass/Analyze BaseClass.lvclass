@@ -117,14 +117,23 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
 	</Item>
-	<Item Name="Generate Report as INI Section.vi" Type="VI" URL="../Generate Report as INI Section.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(E!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"N!&amp;A!"#W.P&lt;G:J:S"E982B!!:S:7:O&gt;7U!!%M!]&lt;GGFI1!!!!#%5Z*8UR71W^O:GFH,GRW&lt;'FC&amp;E.P&lt;G:J:S"%982B)&amp;*F:EZV&lt;3ZD&gt;'Q!'E"Q!!%!!1!&amp;#F*F:GZV&lt;3"P&gt;81!!$J!=!!?!!!&lt;'5&amp;O97RZ?G5A1G&amp;T:5.M98.T,GRW9WRB=X-!&amp;5&amp;O97RZ?G5A1G&amp;T:5.M98.T)'^V&gt;!!11&amp;-+5'&amp;S97VF&gt;'6S=Q!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!-1&amp;-(5G6T&gt;7RU=Q"*!0'ZJJ;%!!!!!B&amp;/36^-6E.P&lt;G:J:SZM&gt;GRJ9B:$&lt;WZG;7=A2'&amp;U93"3:7:/&gt;7UO9X2M!"B!=!!"!!%!"1F3:7:O&gt;7UA;7Y!/E"Q!"Y!!"M:17ZB&lt;(F[:3"#98.F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!517ZB&lt;(F[:3"#98.F1WRB=X-A;7Y!!$Q!]!!-!!-!"!!'!!=!"!!%!!1!#!!*!!I!#Q!-!Q!!?!U)!!!.#IU,!!!!!!!!#!!+!!A!#A#3!!!!!!%!$1!!!!!</Property>
+	<Item Name="Clean up.vi" Type="VI" URL="../Clean up.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%:!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5&amp;O97RZ?G5A1G&amp;T:5.M98.T,GRW9WRB=X-!&amp;5&amp;O97RZ?G5A1G&amp;T:5.M98.T)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!&lt;'5&amp;O97RZ?G5A1G&amp;T:5.M98.T,GRW9WRB=X-!&amp;%&amp;O97RZ?G5A1G&amp;T:5.M98.T)'FO!!!]!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A.#!!!!!#.#Q!!!!!!!!!!#!!!!!!!E!!!!!!"!!A!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="Generate Report as INI Section.vi" Type="VI" URL="../Generate Report as INI Section.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(E!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"N!&amp;A!"#W.P&lt;G:J:S"E982B!!:S:7:O&gt;7U!!%M!]&lt;GGFI1!!!!#%5Z*8UR71W^O:GFH,GRW&lt;'FC&amp;E.P&lt;G:J:S"%982B)&amp;*F:EZV&lt;3ZD&gt;'Q!'E"Q!!%!!1!&amp;#F*F:GZV&lt;3"P&gt;81!!$J!=!!?!!!&lt;'5&amp;O97RZ?G5A1G&amp;T:5.M98.T,GRW9WRB=X-!&amp;5&amp;O97RZ?G5A1G&amp;T:5.M98.T)'^V&gt;!!11&amp;-+5'&amp;S97VF&gt;'6S=Q!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!-1&amp;-(5G6T&gt;7RU=Q"*!0'ZJJ;%!!!!!B&amp;/36^-6E.P&lt;G:J:SZM&gt;GRJ9B:$&lt;WZG;7=A2'&amp;U93"3:7:/&gt;7UO9X2M!"B!=!!"!!%!"1F3:7:O&gt;7UA;7Y!/E"Q!"Y!!"M:17ZB&lt;(F[:3"#98.F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!517ZB&lt;(F[:3"#98.F1WRB=X-A;7Y!!$Q!]!!-!!-!"!!'!!=!"!!%!!1!#!!*!!I!#Q!-!A!!?!U)!!!.#IU,!!!!!!!!#!!)!!A!#!#1!!!!!!%!$1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
 	<Item Name="Filter Area ROIContours.vi" Type="VI" URL="../Filter Area ROIContours.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(6!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!!Q!!(E"!!!(`````!!512WRP9G&amp;M)&amp;*F9X2B&lt;G&gt;M:1!!(5!8!!))28BU:8*O97Q)37ZU:8*O97Q!!EF%!!!,1!=!"&amp;2Z='5!!"B!1!!"`````Q!&amp;#U.P&lt;X*E;7ZB&gt;'6T!!Q!5!!$!!=!#!!*!":!1!!"`````Q!+#%.P&lt;H2P&gt;8*T!!!X!0%!!!!!!!!!!1Z34UEA2'6T9X*J=(2P=A!A1&amp;!!!A!'!!M15E^*)'^G)%&amp;S:7%A&gt;(FQ:1!!/E"Q!"Y!!"M:17ZB&lt;(F[:3"#98.F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!617ZB&lt;(F[:3"#98.F1WRB=X-A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/E"Q!"Y!!"M:17ZB&lt;(F[:3"#98.F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!517ZB&lt;(F[:3"#98.F1WRB=X-A;7Y!!$Q!]!!-!!-!"!!-!!U!"!!%!!1!"!!/!!1!"!!0!Q!!?!U)!!!*!)U,!!!!!!!!!!!)!!!!!!#1!!!!!!%!%!!!!!!</Property>

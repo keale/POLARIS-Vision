@@ -6,6 +6,7 @@
 	<Item Name="retrieve control values.vi" Type="VI" URL="../retrieve control values.vi"/>
 	<Item Name="UserPalette-xRainbows.vi" Type="VI" URL="../UserPalette-xRainbows.vi"/>
 	<Item Name="PNG Header.vi" Type="VI" URL="../Write PNG Header/PNG Header.vi"/>
-	<Item Name="Section to Variant Attributes.vi" Type="VI" URL="../Section to Variant Attributes.vi"/>
-	<Item Name="Variant Attributes to Section.vi" Type="VI" URL="../Variant Attributes to Section.vi"/>
+	<Item Name="test windows positionierung.vi" Type="VI" URL="../test windows positionierung.vi"/>
+	<Item Name="Adapt FP.vi" Type="VI" URL="../Adapt FP.vi"/>
+	<Item Name="Change Control Size.vi" Type="VI" URL="../Change Control Size.vi"/>
 </Library>

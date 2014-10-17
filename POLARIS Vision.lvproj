@@ -33,6 +33,7 @@
 			<Item Name="Analyze BaseClass.lvclass" Type="LVClass" URL="../Analyze Classes/Analyze BaseClass/Analyze BaseClass.lvclass"/>
 			<Item Name="Analyze Fluence.lvclass" Type="LVClass" URL="../Analyze Classes/Analyze Fluence/Analyze Fluence.lvclass"/>
 			<Item Name="Analyze q-Factor.lvclass" Type="LVClass" URL="../Analyze Classes/Analyze Q-Factor/Analyze q-Factor.lvclass"/>
+			<Item Name="Analyze Timer.lvclass" Type="LVClass" URL="../Analyze Classes/Analyze Timer/Analyze Timer.lvclass"/>
 			<Item Name="Width Method.ctl" Type="VI" URL="../Analyze Classes/Width Method.ctl"/>
 		</Item>
 		<Item Name="POLARIS Vision utility.lvlib" Type="Library" URL="../Utility/POLARIS Vision utility.lvlib"/>
@@ -96,6 +97,8 @@
 				<Item Name="IMAQ Read Image And Vision Info" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ Read Image And Vision Info"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -108,10 +111,6 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
 			<Item Name="NI_PNGCustomString.dll" Type="Document" URL="../Utility/Write PNG Header/NI_PNGCustomString.dll"/>
-			<Item Name="Get Variant Attributes__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get Variant Attributes__ogtk.vi"/>
-			<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="../Utility/OpenG/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
-			<Item Name="Format Variant Into String__ogtk.vi" Type="VI" URL="../Utility/OpenG/string/string.llb/Format Variant Into String__ogtk.vi"/>
-			<Item Name="imaqdx.rc" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/objmgr/imaqdx.rc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="POLARIS Camera" Type="EXE">
