@@ -131,9 +131,10 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
-		<Item Name="Load Display Settings from File.vi" Type="Method VI" URL="../Methods/Load Display Settings from File.vi"/>
+		<Item Name="Clean up.vi" Type="Method VI" URL="../Methods/Clean up.vi"/>
+		<Item Name="Load Settings.vi" Type="Method VI" URL="../Methods/Load Settings.vi"/>
 		<Item Name="Save Image.vi" Type="Method VI" URL="../Methods/Save Image.vi"/>
-		<Item Name="Save Display Settings2File.vi" Type="Method VI" URL="../Methods/Save Display Settings2File.vi"/>
+		<Item Name="Save Settings.vi" Type="Method VI" URL="../Methods/Save Settings.vi"/>
 		<Item Name="Get Displayed Image.vi" Type="Method VI" URL="../Methods/Get Displayed Image.vi"/>
 		<Item Name="Set Display Settings.vi" Type="Method VI" URL="../Methods/Set Display Settings.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

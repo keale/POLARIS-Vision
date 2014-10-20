@@ -46,6 +46,7 @@
 		<Item Name="read named variant txt.vi" Type="VI" URL="../../tests/Variant to textfile/read named variant txt.vi"/>
 		<Item Name="ROI 2 INI Section.vi" Type="VI" URL="../Utility/ROI 2 INI Section.vi"/>
 		<Item Name="ROI from INI Section.vi" Type="VI" URL="../Utility/ROI from INI Section.vi"/>
+		<Item Name="control position.ctl" Type="VI" URL="../Utility/control position.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
@@ -99,6 +100,24 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
+				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
+				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
+				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
+				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
+				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
+				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
+				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
+				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
+				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
+				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
+				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
+				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
+				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
+				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
+				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
+				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -147,43 +166,6 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
-			<Item Name="POLARIS Focus Camera" Type="EXE">
-				<Property Name="App_applicationGUID" Type="Str">{6DD09D10-7425-485A-8F62-126236FC7CF8}</Property>
-				<Property Name="App_applicationName" Type="Str">POLARIS Focus Camera.exe</Property>
-				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">POLARIS Camera</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{F47DB27D-EACF-433E-A050-BCB893D4EBA1}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{A1DF0C77-AA62-4925-82D3-7757D254F447}</Property>
-				<Property Name="App_internalName" Type="Str">POLARIS Camera</Property>
-				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
-				<Property Name="App_productName" Type="Str">POLARIS Camera</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">POLARIS Focus Camera</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Destination[0].destName" Type="Str">POLARIS Focus Camera.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Focus Camera/POLARIS Focus Camera.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Focus Camera/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B80E56CC-A270-47ED-8FE1-AA92C0367662}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-			</Item>
 			<Item Name="TA Focus POLARIS Vision" Type="EXE">
 				<Property Name="App_applicationGUID" Type="Str">{E018826E-C337-43B0-8D37-2936B9E8EF79}</Property>
 				<Property Name="App_applicationName" Type="Str">TA Focus POLARIS Vision.exe</Property>
@@ -207,7 +189,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA Focus POLARIS Vision.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F3749801-8F8A-44A9-A1D4-26EA8306268E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CE707CCC-A41E-4DEE-A74B-8A846DF85417}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
@@ -216,7 +198,11 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/POLARIS Programms/Target Focus POLARIS Vision.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/POLARIS Vision utility.lvlib/Adapt FP.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 			<Item Name="TA FF IN POLARIS Vision" Type="EXE">
 				<Property Name="App_applicationGUID" Type="Str">{292A381F-A70C-4F36-84F7-8547A9C1683C}</Property>
@@ -242,13 +228,17 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA FF IN POLARIS Vision/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA FF in POLARIS Vision.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{88E83D67-C5A4-4DE2-96A3-4A7F61DDE338}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CE707CCC-A41E-4DEE-A74B-8A846DF85417}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/POLARIS Vision utility.lvlib/Adapt FP.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 			<Item Name="POLARIS Fluence Camera" Type="EXE">
 				<Property Name="App_applicationGUID" Type="Str">{EE3576D0-6582-48C4-AA11-85DD964FF6D8}</Property>
@@ -273,22 +263,17 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Fluence Camera/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B80E56CC-A270-47ED-8FE1-AA92C0367662}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CE707CCC-A41E-4DEE-A74B-8A846DF85417}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[1].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/POLARIS Fluence Camera.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/POLARIS Vision utility.lvlib/Adapt FP.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/POLARIS Programms/POLARIS Fluence Camera.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 		</Item>
 	</Item>
