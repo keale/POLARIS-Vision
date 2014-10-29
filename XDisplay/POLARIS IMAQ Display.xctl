@@ -130,8 +130,14 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 			<Item Name="Appl Parameter Read.vi" Type="Property VI" URL="../Properties/Appl Parameter Read.vi"/>
 			<Item Name="Appl Parameter Write.vi" Type="Property VI" URL="../Properties/Appl Parameter Write.vi"/>
 		</Item>
+		<Item Name="Show ZoomBtn" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Show ZoomBtn</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Show ZoomBtn</Property>
+			<Item Name="Show ZoomBtn Write.vi" Type="Property VI" URL="../Properties/Show ZoomBtn Write.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
+		<Item Name="Read Report File.vi" Type="Method VI" URL="../Methods/Read Report File.vi"/>
 		<Item Name="Clean up.vi" Type="Method VI" URL="../Methods/Clean up.vi"/>
 		<Item Name="Load Settings.vi" Type="Method VI" URL="../Methods/Load Settings.vi"/>
 		<Item Name="Save Image.vi" Type="Method VI" URL="../Methods/Save Image.vi"/>
@@ -156,7 +162,12 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		<Item Name="FWHM XDisplay.vi" Type="VI" URL="../FWHM XDisplay.vi"/>
 		<Item Name="Apply min Threshold.vi" Type="VI" URL="../Apply min Threshold.vi"/>
 		<Item Name="create icon from picdata.vi" Type="VI" URL="../zoom icons/create icon from picdata.vi"/>
-		<Item Name="DisplaySettings 2 INI Section.vi" Type="VI" URL="../DisplaySettings 2 INI Section.vi"/>
+		<Item Name="DisplaySettings 2 INI Section.vi" Type="VI" URL="../DisplaySettings 2 INI Section.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
+		<Item Name="DisplaySettings from INI Section.vi" Type="VI" URL="../DisplaySettings from INI Section.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		</Item>
 	</Item>
 	<Item Name="Dialogs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
