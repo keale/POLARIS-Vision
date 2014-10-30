@@ -168,6 +168,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		<Item Name="DisplaySettings from INI Section.vi" Type="VI" URL="../DisplaySettings from INI Section.vi">
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
+		<Item Name="Init Analyze Objs from Report.vi" Type="VI" URL="../Init Analyze Objs from Report.vi"/>
 	</Item>
 	<Item Name="Dialogs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

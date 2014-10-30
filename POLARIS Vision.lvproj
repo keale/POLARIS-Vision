@@ -28,12 +28,10 @@
 			</Item>
 			<Item Name="POLARIS Image Viewer.vi" Type="VI" URL="../POLARIS Image Viewer.vi"/>
 			<Item Name="POLARIS Camera.vi" Type="VI" URL="../POLARIS Camera.vi"/>
+			<Item Name="test Factory.vi" Type="VI" URL="../test Factory.vi"/>
 		</Item>
 		<Item Name="Analyze Classes" Type="Folder">
-			<Item Name="Analyze BaseClass.lvclass" Type="LVClass" URL="../Analyze Classes/Analyze BaseClass/Analyze BaseClass.lvclass"/>
-			<Item Name="Analyze Fluence.lvclass" Type="LVClass" URL="../Analyze Classes/Analyze Fluence/Analyze Fluence.lvclass"/>
-			<Item Name="Analyze q-Factor.lvclass" Type="LVClass" URL="../Analyze Classes/Analyze Q-Factor/Analyze q-Factor.lvclass"/>
-			<Item Name="Analyze Timer.lvclass" Type="LVClass" URL="../Analyze Classes/Analyze Timer/Analyze Timer.lvclass"/>
+			<Item Name="Analyze.lvlib" Type="Library" URL="../Analyze Classes/Analyze.lvlib"/>
 			<Item Name="Width Method.ctl" Type="VI" URL="../Analyze Classes/Width Method.ctl"/>
 		</Item>
 		<Item Name="POLARIS Vision utility.lvlib" Type="Library" URL="../Utility/POLARIS Vision utility.lvlib"/>
@@ -114,6 +112,7 @@
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="IMAQ WindToolsShow" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsShow"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -271,6 +270,61 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
+			</Item>
+			<Item Name="Test Object Factory" Type="EXE">
+				<Property Name="App_applicationGUID" Type="Str">{F26A4135-5E16-4FEF-B178-128A4246A76F}</Property>
+				<Property Name="App_applicationName" Type="Str">test.exe</Property>
+				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
+				<Property Name="App_fileDescription" Type="Str">Test Object Factory</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A7B1A50D-7854-4BF6-A6C7-8A061D780EA6}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{8C413477-D06C-4618-9BB8-03CAD7604094}</Property>
+				<Property Name="App_internalName" Type="Str">Test Object Factory</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
+				<Property Name="App_productName" Type="Str">Test Object Factory</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Test Object Factory</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">test.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Test Object Factory/test.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Test Object Factory/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{49D3E481-D9A4-49EE-9A18-5FA2F24E6056}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib/Create Analyze Objects.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib/Analyze BaseClass.lvclass</Property>
+				<Property Name="Source[3].type" Type="Str">Library</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib/Analyze Fluence.lvclass</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib/Analyze q-Factor.lvclass</Property>
+				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib/Analyze Timer.lvclass</Property>
+				<Property Name="Source[6].type" Type="Str">Library</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/examples/test Factory.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Analyze Classes</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
 		</Item>
 	</Item>
