@@ -22,13 +22,14 @@
 		<Item Name="examples" Type="Folder">
 			<Item Name="IMAQdx Class" Type="Folder">
 				<Item Name="test attributes file.vi" Type="VI" URL="../IMAQdx Cam/test attributes file.vi"/>
-				<Item Name="test.vi" Type="VI" URL="../test.vi"/>
+				<Item Name="Example IMAQdx Cam.vi" Type="VI" URL="../Example IMAQdx Cam.vi"/>
 				<Item Name="test 4 cams.vi" Type="VI" URL="../test 4 cams.vi"/>
 				<Item Name="listener mode.vi" Type="VI" URL="../listener mode.vi"/>
 			</Item>
 			<Item Name="POLARIS Image Viewer.vi" Type="VI" URL="../POLARIS Image Viewer.vi"/>
 			<Item Name="POLARIS Camera.vi" Type="VI" URL="../POLARIS Camera.vi"/>
 			<Item Name="test Factory.vi" Type="VI" URL="../test Factory.vi"/>
+			<Item Name="Example IMAQdx Cam and XDisplay.vi" Type="VI" URL="../Example IMAQdx Cam and XDisplay.vi"/>
 		</Item>
 		<Item Name="Analyze Classes" Type="Folder">
 			<Item Name="Analyze.lvlib" Type="Library" URL="../Analyze Classes/Analyze.lvlib"/>
@@ -113,6 +114,7 @@
 				<Item Name="IMAQ WindToolsShow" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsShow"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -325,6 +327,37 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">9</Property>
+			</Item>
+			<Item Name="test listener mode" Type="EXE">
+				<Property Name="App_applicationGUID" Type="Str">{07CF0E35-0DC1-4DDF-B24B-401CED692D33}</Property>
+				<Property Name="App_applicationName" Type="Str">Test Listener mode.exe</Property>
+				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
+				<Property Name="App_fileDescription" Type="Str">test listener mode</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A69F6B35-4E6E-41C9-9A9B-35ECAFF7B897}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{F4558963-1911-4AE2-96E8-0A55CD6B50B9}</Property>
+				<Property Name="App_internalName" Type="Str">test listener mode</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
+				<Property Name="App_productName" Type="Str">test listener mode</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">test listener mode</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">Test Listener mode.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/test listener mode/Test Listener mode.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/test listener mode/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D2F8D8F0-65EF-4C55-92DF-A6F9985AB236}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/examples/IMAQdx Class/listener mode.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>
