@@ -135,6 +135,12 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Show ZoomBtn</Property>
 			<Item Name="Show ZoomBtn Write.vi" Type="Property VI" URL="../Properties/Show ZoomBtn Write.vi"/>
 		</Item>
+		<Item Name="Image File" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">Image File</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">Image File</Property>
+			<Item Name="Image File Read.vi" Type="Property VI" URL="../Properties/Image File Read.vi"/>
+			<Item Name="Image File Write.vi" Type="Property VI" URL="../Properties/Image File Write.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
 		<Item Name="Read Report File.vi" Type="Method VI" URL="../Methods/Read Report File.vi"/>
