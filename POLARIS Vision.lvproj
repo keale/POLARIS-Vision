@@ -169,6 +169,7 @@
 				<Property Name="App_applicationName" Type="Str">TA Focus POLARIS Vision.exe</Property>
 				<Property Name="App_companyName" Type="Str">Helmholtz-Institut Jena</Property>
 				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{2F1AA3B2-57C7-4D63-9A86-A71AC39060CF}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B875F23B-B314-412F-B79F-1B2A95E645EB}</Property>
 				<Property Name="App_internalName" Type="Str">TA Focus POLARIS Vision</Property>
@@ -187,7 +188,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA Focus POLARIS Vision.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CE707CCC-A41E-4DEE-A74B-8A846DF85417}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7223EE8F-DCC8-4F87-A459-52B21DEC6273}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
@@ -208,6 +209,7 @@
 				<Property Name="App_companyName" Type="Str">Helmholtz-Institut Jena</Property>
 				<Property Name="App_fileDescription" Type="Str">TA FF IN POLARIS Vision</Property>
 				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{20BD1362-3A7A-475D-8255-A7D8FDD8D2B2}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{5AE7DCEA-7394-45B2-AD5A-3B2446ACDC2B}</Property>
 				<Property Name="App_internalName" Type="Str">TA FF IN POLARIS Vision</Property>
@@ -226,7 +228,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA FF IN POLARIS Vision/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA FF in POLARIS Vision.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CE707CCC-A41E-4DEE-A74B-8A846DF85417}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7223EE8F-DCC8-4F87-A459-52B21DEC6273}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
@@ -244,6 +246,7 @@
 				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
 				<Property Name="App_fileDescription" Type="Str">POLARIS Camera</Property>
 				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{1B9D8055-7967-4B59-AD15-13751380690B}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{959FA855-7931-498B-A9CF-FD31CAFD6E0C}</Property>
 				<Property Name="App_internalName" Type="Str">POLARIS Camera</Property>
@@ -261,7 +264,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Fluence Camera/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CE707CCC-A41E-4DEE-A74B-8A846DF85417}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7223EE8F-DCC8-4F87-A459-52B21DEC6273}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/POLARIS Fluence Camera.vi</Property>
