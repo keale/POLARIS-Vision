@@ -194,5 +194,4 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 	<Item Name="Facade.vi" Type="Ability VI" URL="../Facade.vi">
 		<Property Name="NI.XItem.Name" Type="Str">Facade</Property>
 	</Item>
-	<Item Name="Image.rtm" Type="Document" URL="../Image.rtm"/>
 </XControl>
