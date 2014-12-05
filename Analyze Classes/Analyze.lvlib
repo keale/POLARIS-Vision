@@ -7,4 +7,5 @@
 	<Item Name="Analyze q-Factor.lvclass" Type="LVClass" URL="../Analyze Q-Factor/Analyze q-Factor.lvclass"/>
 	<Item Name="Analyze Timer.lvclass" Type="LVClass" URL="../Analyze Timer/Analyze Timer.lvclass"/>
 	<Item Name="Analyze Fluence.lvclass" Type="LVClass" URL="../Analyze Fluence/Analyze Fluence.lvclass"/>
+	<Item Name="Analyze Distanz.lvclass" Type="LVClass" URL="../Analyze Distanz/Analyze Distanz.lvclass"/>
 </Library>

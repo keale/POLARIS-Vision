@@ -121,6 +121,15 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 	</Item>
 	<Item Name="Protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+		<Item Name="Filter Line ROIContours.vi" Type="VI" URL="../Filter Line ROIContours.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(N!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!!Q!!(E"!!!(`````!!512WRP9G&amp;M)&amp;*F9X2B&lt;G&gt;M:1!!(5!8!!))28BU:8*O97Q)37ZU:8*O97Q!!EF%!!!,1!=!"&amp;2Z='5!!"B!1!!"`````Q!&amp;#U.P&lt;X*E;7ZB&gt;'6T!!Q!5!!$!!=!#!!*!":!1!!"`````Q!+#%.P&lt;H2P&gt;8*T!!!T!0%!!!!!!!!!!1Z34UEA2'6T9X*J=(2P=A!=1&amp;!!!A!'!!M.4'FO:3"D&lt;WZU&lt;X6S=Q")1(!!(A!!+1V"&lt;G&amp;M?8JF,GRW&lt;'FC'5&amp;O97RZ?G5A1G&amp;T:5.M98.T,GRW9WRB=X-!&amp;5&amp;O97RZ?G5A1G&amp;T:5.M98.T)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%B!=!!?!!!J$5&amp;O97RZ?G5O&lt;(:M;7):17ZB&lt;(F[:3"#98.F1WRB=X-O&lt;(:D&lt;'&amp;T=Q!517ZB&lt;(F[:3"#98.F1WRB=X-A;7Y!!$Q!]!!-!!-!"!!-!!U!"!!%!!1!"!!/!!1!"!!0!Q!!?!U)!!!*!)U,!!!!!!!!!!!)!!!!!!#1!!!!!!%!%!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		</Item>
 		<Item Name="Filter Area ROIContours.vi" Type="VI" URL="../Filter Area ROIContours.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(R!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!!Q!!(E"!!!(`````!!512WRP9G&amp;M)&amp;*F9X2B&lt;G&gt;M:1!!(5!8!!))28BU:8*O97Q)37ZU:8*O97Q!!EF%!!!,1!=!"&amp;2Z='5!!"B!1!!"`````Q!&amp;#U.P&lt;X*E;7ZB&gt;'6T!!Q!5!!$!!=!#!!*!":!1!!"`````Q!+#%.P&lt;H2P&gt;8*T!!!X!0%!!!!!!!!!!1Z34UEA2'6T9X*J=(2P=A!A1&amp;!!!A!'!!M15E^*)'^G)%&amp;S:7%A&gt;(FQ:1!!3%"Q!"Y!!#E.17ZB&lt;(F[:3ZM&gt;GRJ9BF"&lt;G&amp;M?8JF)%*B=W6$&lt;'&amp;T=SZM&gt;G.M98.T!"6"&lt;G&amp;M?8JF)%*B=W6$&lt;'&amp;T=S"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1")1(!!(A!!+1V"&lt;G&amp;M?8JF,GRW&lt;'FC'5&amp;O97RZ?G5A1G&amp;T:5.M98.T,GRW9WRB=X-!&amp;%&amp;O97RZ?G5A1G&amp;T:5.M98.T)'FO!!!]!0!!$!!$!!1!$!!.!!1!"!!%!!1!$A!%!!1!$Q-!!(A.#!!!#1#.#Q!!!!!!!!!!#!!!!!!!E!!!!!!"!"!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

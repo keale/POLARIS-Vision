@@ -42,6 +42,7 @@
 		<Item Name="ROI from INI Section.vi" Type="VI" URL="../Utility/ROI from INI Section.vi"/>
 		<Item Name="control position.ctl" Type="VI" URL="../Utility/control position.ctl"/>
 		<Item Name="Example IMAQdx Cam and XDisplay_temp.vi" Type="VI" URL="../Example IMAQdx Cam and XDisplay_temp.vi"/>
+		<Item Name="POLARIS Image Viewer find memory bug.vi" Type="VI" URL="../POLARIS Image Viewer find memory bug.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
@@ -359,6 +360,37 @@
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/examples/IMAQdx Class/listener mode.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+			</Item>
+			<Item Name="find memory bug" Type="EXE">
+				<Property Name="App_applicationGUID" Type="Str">{3DFC9388-CC23-477F-BCDB-49E56E19D69C}</Property>
+				<Property Name="App_applicationName" Type="Str">find memory bug.exe</Property>
+				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
+				<Property Name="App_fileDescription" Type="Str">find memory bug</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{F47D794C-394C-4A52-85EB-7158DB33FA41}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{4E12C0F4-8FDE-44F0-982E-F3488490FDF0}</Property>
+				<Property Name="App_internalName" Type="Str">find memory bug</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
+				<Property Name="App_productName" Type="Str">find memory bug</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">find memory bug</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Destination[0].destName" Type="Str">find memory bug.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/find memory bug/find memory bug.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/find memory bug/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{073CF88D-081B-45ED-B24E-33EE3799B053}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Image Viewer find memory bug.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>

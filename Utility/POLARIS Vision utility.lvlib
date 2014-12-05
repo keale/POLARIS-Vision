@@ -17,4 +17,5 @@
 	<Item Name="Load FP settings from File.vi" Type="VI" URL="../Load FP settings from File.vi"/>
 	<Item Name="Set Control Position.vi" Type="VI" URL="../Set Control Position.vi"/>
 	<Item Name="Open Dialog VI.vi" Type="VI" URL="../Open Dialog VI.vi"/>
+	<Item Name="pythagoras.vi" Type="VI" URL="../pythagoras.vi"/>
 </Library>
