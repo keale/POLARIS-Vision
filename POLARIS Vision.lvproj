@@ -11,6 +11,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="POLARIS Programms" Type="Folder">
+			<Item Name="Graveyard" Type="Folder">
+				<Item Name="FF Target IN POLARIS Vision.vi" Type="VI" URL="../POLARIS Programme/FF Target IN POLARIS Vision.vi"/>
+			</Item>
 			<Item Name="icons" Type="Folder">
 				<Item Name="TA Focus POLARIS Vision.ico" Type="Document" URL="../POLARIS Programme/TA Focus POLARIS Vision.ico"/>
 				<Item Name="TA FF in POLARIS Vision.ico" Type="Document" URL="../POLARIS Programme/TA FF in POLARIS Vision.ico"/>
@@ -20,7 +23,6 @@
 				<Item Name="POLARIS Camera.ini" Type="Document" URL="../POLARIS Camera.ini"/>
 			</Item>
 			<Item Name="Target Focus POLARIS Vision.vi" Type="VI" URL="../POLARIS Programme/Target Focus POLARIS Vision.vi"/>
-			<Item Name="FF Target IN POLARIS Vision.vi" Type="VI" URL="../POLARIS Programme/FF Target IN POLARIS Vision.vi"/>
 			<Item Name="POLARIS Fluence Camera.vi" Type="VI" URL="../POLARIS Fluence Camera.vi"/>
 			<Item Name="POLARIS Camera.vi" Type="VI" URL="../POLARIS Camera.vi"/>
 		</Item>
@@ -208,7 +210,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{9783473B-323C-4358-A5ED-F8D983478C1A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/Graveyard/FF Target IN POLARIS Vision.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/POLARIS Programms/Target Focus POLARIS Vision.vi</Property>

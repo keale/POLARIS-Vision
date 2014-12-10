@@ -143,6 +143,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 		</Item>
 	</Item>
 	<Item Name="Methods" Type="Folder">
+		<Item Name="Change Camera.vi" Type="Method VI" URL="../Methods/Change Camera.vi"/>
 		<Item Name="Update Parameter.vi" Type="Method VI" URL="../Methods/Update Parameter.vi"/>
 		<Item Name="Show and Analyze.vi" Type="Method VI" URL="../Methods/Show and Analyze.vi"/>
 		<Item Name="Read Report File.vi" Type="Method VI" URL="../Methods/Read Report File.vi"/>
