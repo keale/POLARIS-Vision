@@ -14,10 +14,15 @@
 			<Item Name="icons" Type="Folder">
 				<Item Name="TA Focus POLARIS Vision.ico" Type="Document" URL="../POLARIS Programme/TA Focus POLARIS Vision.ico"/>
 				<Item Name="TA FF in POLARIS Vision.ico" Type="Document" URL="../POLARIS Programme/TA FF in POLARIS Vision.ico"/>
+				<Item Name="POLARIS Camera.ico" Type="Document" URL="../POLARIS Camera.ico"/>
+			</Item>
+			<Item Name="Config files" Type="Folder">
+				<Item Name="POLARIS Camera.ini" Type="Document" URL="../POLARIS Camera.ini"/>
 			</Item>
 			<Item Name="Target Focus POLARIS Vision.vi" Type="VI" URL="../POLARIS Programme/Target Focus POLARIS Vision.vi"/>
 			<Item Name="FF Target IN POLARIS Vision.vi" Type="VI" URL="../POLARIS Programme/FF Target IN POLARIS Vision.vi"/>
 			<Item Name="POLARIS Fluence Camera.vi" Type="VI" URL="../POLARIS Fluence Camera.vi"/>
+			<Item Name="POLARIS Camera.vi" Type="VI" URL="../POLARIS Camera.vi"/>
 		</Item>
 		<Item Name="examples" Type="Folder">
 			<Item Name="IMAQdx Class" Type="Folder">
@@ -27,7 +32,6 @@
 				<Item Name="listener mode.vi" Type="VI" URL="../listener mode.vi"/>
 			</Item>
 			<Item Name="POLARIS Image Viewer.vi" Type="VI" URL="../POLARIS Image Viewer.vi"/>
-			<Item Name="POLARIS Camera.vi" Type="VI" URL="../POLARIS Camera.vi"/>
 			<Item Name="test Factory.vi" Type="VI" URL="../test Factory.vi"/>
 			<Item Name="Example IMAQdx Cam and XDisplay.vi" Type="VI" URL="../Example IMAQdx Cam and XDisplay.vi"/>
 		</Item>
@@ -135,10 +139,17 @@
 				<Property Name="App_applicationGUID" Type="Str">{D23B6141-B73B-40A8-98B8-E87B49F9F904}</Property>
 				<Property Name="App_applicationName" Type="Str">POLARIS Camera.exe</Property>
 				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">POLARIS Camera</Property>
+				<Property Name="App_fileDescription" Type="Str">POLARIS Camera
+-allows mulltinstance
+-Configuration via commandline parameters
+-Imageanalysis is now synchrnonised
+-Works with 8bit, 16bit and 12bit packed cam image formats</Property>
 				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
+				<Property Name="App_fileVersion.patch" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{EC738497-3A10-4DE1-A04F-CDC26556C583}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{FB0E6B98-24A2-4C5E-9AD1-91994A7B457A}</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/POLARIS Programms/Config files/POLARIS Camera.ini</Property>
 				<Property Name="App_internalName" Type="Str">POLARIS Camera</Property>
 				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
 				<Property Name="App_productName" Type="Str">POLARIS Camera</Property>
@@ -154,10 +165,11 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Camera/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{25F3EAE1-BC3A-424B-BAE4-F4AD4CE6BBA5}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/POLARIS Camera.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9783473B-323C-4358-A5ED-F8D983478C1A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/examples/POLARIS Camera.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/POLARIS Camera.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
@@ -170,8 +182,11 @@
 				<Property Name="App_applicationGUID" Type="Str">{E018826E-C337-43B0-8D37-2936B9E8EF79}</Property>
 				<Property Name="App_applicationName" Type="Str">TA Focus POLARIS Vision.exe</Property>
 				<Property Name="App_companyName" Type="Str">Helmholtz-Institut Jena</Property>
+				<Property Name="App_fileDescription" Type="Str">-Imageanalysis is now synchrnonised
+-Works with 8bit, 16bit and 12bit packed cam image formats</Property>
 				<Property Name="App_fileVersion.major" Type="Int">1</Property>
 				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
+				<Property Name="App_fileVersion.patch" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{2F1AA3B2-57C7-4D63-9A86-A71AC39060CF}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B875F23B-B314-412F-B79F-1B2A95E645EB}</Property>
 				<Property Name="App_internalName" Type="Str">TA Focus POLARIS Vision</Property>
@@ -190,7 +205,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA Focus POLARIS Vision.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7223EE8F-DCC8-4F87-A459-52B21DEC6273}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9783473B-323C-4358-A5ED-F8D983478C1A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
@@ -205,50 +220,15 @@
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
-			<Item Name="TA FF IN POLARIS Vision" Type="EXE">
-				<Property Name="App_applicationGUID" Type="Str">{292A381F-A70C-4F36-84F7-8547A9C1683C}</Property>
-				<Property Name="App_applicationName" Type="Str">TA FF IN POLARIS Vision.exe</Property>
-				<Property Name="App_companyName" Type="Str">Helmholtz-Institut Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">TA FF IN POLARIS Vision</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
-				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{20BD1362-3A7A-475D-8255-A7D8FDD8D2B2}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{5AE7DCEA-7394-45B2-AD5A-3B2446ACDC2B}</Property>
-				<Property Name="App_internalName" Type="Str">TA FF IN POLARIS Vision</Property>
-				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Helmholtz-Institut Jena</Property>
-				<Property Name="App_productName" Type="Str">TA FF IN POLARIS Vision</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">TA FF IN POLARIS Vision</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Destination[0].destName" Type="Str">TA FF IN POLARIS Vision.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA FF IN POLARIS Vision/TA FF IN POLARIS Vision.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA FF IN POLARIS Vision/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA FF in POLARIS Vision.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7223EE8F-DCC8-4F87-A459-52B21DEC6273}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/FF Target IN POLARIS Vision.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/POLARIS Vision utility.lvlib/Adapt FP.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-			</Item>
 			<Item Name="POLARIS Fluence Camera" Type="EXE">
 				<Property Name="App_applicationGUID" Type="Str">{EE3576D0-6582-48C4-AA11-85DD964FF6D8}</Property>
 				<Property Name="App_applicationName" Type="Str">POLARIS Fluence Camera.exe</Property>
 				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">POLARIS Camera</Property>
+				<Property Name="App_fileDescription" Type="Str">-Imageanalysis is now synchrnonised
+-Works with 8bit, 16bit and 12bit packed cam image formats</Property>
 				<Property Name="App_fileVersion.major" Type="Int">1</Property>
 				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
+				<Property Name="App_fileVersion.patch" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{1B9D8055-7967-4B59-AD15-13751380690B}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{959FA855-7931-498B-A9CF-FD31CAFD6E0C}</Property>
 				<Property Name="App_internalName" Type="Str">POLARIS Camera</Property>
@@ -266,7 +246,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Fluence Camera/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7223EE8F-DCC8-4F87-A459-52B21DEC6273}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9783473B-323C-4358-A5ED-F8D983478C1A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/POLARIS Fluence Camera.vi</Property>
@@ -277,123 +257,6 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
-			</Item>
-			<Item Name="Test Object Factory" Type="EXE">
-				<Property Name="App_applicationGUID" Type="Str">{F26A4135-5E16-4FEF-B178-128A4246A76F}</Property>
-				<Property Name="App_applicationName" Type="Str">test.exe</Property>
-				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">Test Object Factory</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{A7B1A50D-7854-4BF6-A6C7-8A061D780EA6}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{8C413477-D06C-4618-9BB8-03CAD7604094}</Property>
-				<Property Name="App_internalName" Type="Str">Test Object Factory</Property>
-				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
-				<Property Name="App_productName" Type="Str">Test Object Factory</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Test Object Factory</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Destination[0].destName" Type="Str">test.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Test Object Factory/test.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Test Object Factory/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{49D3E481-D9A4-49EE-9A18-5FA2F24E6056}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib/Create Analyze Objects.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib</Property>
-				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib/Analyze BaseClass.lvclass</Property>
-				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib/Analyze Fluence.lvclass</Property>
-				<Property Name="Source[4].type" Type="Str">Library</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib/Analyze q-Factor.lvclass</Property>
-				<Property Name="Source[5].type" Type="Str">Library</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Analyze Classes/Analyze.lvlib/Analyze Timer.lvclass</Property>
-				<Property Name="Source[6].type" Type="Str">Library</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/examples/test Factory.vi</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Analyze Classes</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">9</Property>
-			</Item>
-			<Item Name="test listener mode" Type="EXE">
-				<Property Name="App_applicationGUID" Type="Str">{07CF0E35-0DC1-4DDF-B24B-401CED692D33}</Property>
-				<Property Name="App_applicationName" Type="Str">Test Listener mode.exe</Property>
-				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">test listener mode</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{A69F6B35-4E6E-41C9-9A9B-35ECAFF7B897}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{F4558963-1911-4AE2-96E8-0A55CD6B50B9}</Property>
-				<Property Name="App_internalName" Type="Str">test listener mode</Property>
-				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
-				<Property Name="App_productName" Type="Str">test listener mode</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">test listener mode</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Destination[0].destName" Type="Str">Test Listener mode.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/test listener mode/Test Listener mode.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/test listener mode/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D2F8D8F0-65EF-4C55-92DF-A6F9985AB236}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/examples/IMAQdx Class/listener mode.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-			</Item>
-			<Item Name="find memory bug" Type="EXE">
-				<Property Name="App_applicationGUID" Type="Str">{3DFC9388-CC23-477F-BCDB-49E56E19D69C}</Property>
-				<Property Name="App_applicationName" Type="Str">find memory bug.exe</Property>
-				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">find memory bug</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{F47D794C-394C-4A52-85EB-7158DB33FA41}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{4E12C0F4-8FDE-44F0-982E-F3488490FDF0}</Property>
-				<Property Name="App_internalName" Type="Str">find memory bug</Property>
-				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
-				<Property Name="App_productName" Type="Str">find memory bug</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">find memory bug</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Destination[0].destName" Type="Str">find memory bug.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/find memory bug/find memory bug.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/find memory bug/data</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{073CF88D-081B-45ED-B24E-33EE3799B053}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Image Viewer find memory bug.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>
