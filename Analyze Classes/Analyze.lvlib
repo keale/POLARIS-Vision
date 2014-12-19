@@ -8,4 +8,5 @@
 	<Item Name="Analyze Timer.lvclass" Type="LVClass" URL="../Analyze Timer/Analyze Timer.lvclass"/>
 	<Item Name="Analyze Fluence.lvclass" Type="LVClass" URL="../Analyze Fluence/Analyze Fluence.lvclass"/>
 	<Item Name="Analyze Distanz.lvclass" Type="LVClass" URL="../Analyze Distanz/Analyze Distanz.lvclass"/>
+	<Item Name="Analyze SHG-AK.lvclass" Type="LVClass" URL="../Analyze SHG-AK/Analyze SHG-AK.lvclass"/>
 </Library>

@@ -18,4 +18,5 @@
 	<Item Name="Set Control Position.vi" Type="VI" URL="../Set Control Position.vi"/>
 	<Item Name="Open Dialog VI.vi" Type="VI" URL="../Open Dialog VI.vi"/>
 	<Item Name="pythagoras.vi" Type="VI" URL="../pythagoras.vi"/>
+	<Item Name="FWHM.vi" Type="VI" URL="../FWHM.vi"/>
 </Library>
