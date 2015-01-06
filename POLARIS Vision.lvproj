@@ -262,6 +262,55 @@
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
+			<Item Name="POLARIS SHG-AK" Type="EXE">
+				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2009/vi.lib/AppBuilder/AB_Classes/EXE/AB_EXE.lvclass</Property>
+				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2009/vi.lib/AppBuilder/AB_Classes/Build/UI/AB_UI_Frmwk_Build.lvclass</Property>
+				<Property Name="App_applicationGUID" Type="Str">{72E2BDAD-DFA0-4D97-BA03-CF5EAEC7AE55}</Property>
+				<Property Name="App_applicationName" Type="Str">POLARIS SHG-AK.exe</Property>
+				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
+				<Property Name="App_fileDescription" Type="Str">POLARIS Camera
+-allows mulltinstance
+-Configuration via commandline parameters
+-Imageanalysis is now synchrnonised
+-Works with 8bit, 16bit and 12bit packed cam image formats</Property>
+				<Property Name="App_fileVersion.major" Type="Int">1</Property>
+				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
+				<Property Name="App_fileVersion.patch" Type="Int">1</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{35C00AA3-8E5E-4395-87C6-E7D829B4488E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{654FCBBE-BD9D-4818-92D1-997119DE4CF6}</Property>
+				<Property Name="App_INI_itemID" Type="Ref">/My Computer/POLARIS Programms/Config files/POLARIS Camera.ini</Property>
+				<Property Name="App_internalName" Type="Str">POLARIS Camera</Property>
+				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
+				<Property Name="App_productName" Type="Str">POLARIS Camera</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">POLARIS SHG-AK</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
+				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">POLARIS SHG-AK.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS SHG-AK/POLARIS SHG-AK.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS SHG-AK/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/POLARIS Camera.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CC0A78D7-7DC3-4281-91B8-685C16DB899F}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/POLARIS Camera.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/POLARIS Vision utility.lvlib/Adapt FP.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/POLARIS Programms/SHG-AK.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+			</Item>
 		</Item>
 	</Item>
 </Project>
