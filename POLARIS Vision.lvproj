@@ -25,6 +25,7 @@
 			<Item Name="Target Focus POLARIS Vision.vi" Type="VI" URL="../POLARIS Programme/Target Focus POLARIS Vision.vi"/>
 			<Item Name="POLARIS Fluence Camera.vi" Type="VI" URL="../POLARIS Fluence Camera.vi"/>
 			<Item Name="POLARIS Camera.vi" Type="VI" URL="../POLARIS Camera.vi"/>
+			<Item Name="SHG-AK.vi" Type="VI" URL="../POLARIS Programme/SHG-AK.vi"/>
 		</Item>
 		<Item Name="examples" Type="Folder">
 			<Item Name="IMAQdx Class" Type="Folder">
@@ -136,7 +137,6 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
 			<Item Name="NI_PNGCustomString.dll" Type="Document" URL="../Utility/Write PNG Header/NI_PNGCustomString.dll"/>
-			<Item Name="imaqdx.rc" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/objmgr/imaqdx.rc"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="POLARIS Camera" Type="EXE">
