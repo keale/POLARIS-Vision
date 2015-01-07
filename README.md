@@ -1,7 +1,7 @@
 POLARIS-Vision
 ==============
 
-LabVIEW based library for IMAQdx Cameras and image analysis. We
+LabVIEW based library for IMAQdx Cameras and image analysis.
 
 This project follows the goals:
 1. maximal control of IMAQdx Camera with minimal programming effort
@@ -35,5 +35,6 @@ alternates IMAQ Display with some futures required for laser applications e.g.:
 Analyze.lvlib
 -------------
 Contains analyze classes inherited from Analyze BaseClass.lvclass.
+
 
 
