@@ -263,8 +263,6 @@
 				<Property Name="SourceCount" Type="Int">3</Property>
 			</Item>
 			<Item Name="POLARIS SHG-AK" Type="EXE">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2009/vi.lib/AppBuilder/AB_Classes/EXE/AB_EXE.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2009/vi.lib/AppBuilder/AB_Classes/Build/UI/AB_UI_Frmwk_Build.lvclass</Property>
 				<Property Name="App_applicationGUID" Type="Str">{72E2BDAD-DFA0-4D97-BA03-CF5EAEC7AE55}</Property>
 				<Property Name="App_applicationName" Type="Str">POLARIS SHG-AK.exe</Property>
 				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
