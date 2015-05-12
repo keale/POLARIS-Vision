@@ -9,4 +9,5 @@
 	<Item Name="Analyze Fluence.lvclass" Type="LVClass" URL="../Analyze Fluence/Analyze Fluence.lvclass"/>
 	<Item Name="Analyze Distanz.lvclass" Type="LVClass" URL="../Analyze Distanz/Analyze Distanz.lvclass"/>
 	<Item Name="Analyze SHG-AK.lvclass" Type="LVClass" URL="../Analyze SHG-AK/Analyze SHG-AK.lvclass"/>
+	<Item Name="Analyze BeamDeviation.lvclass" Type="LVClass" URL="../Analyze Diviation/Analyze BeamDeviation.lvclass"/>
 </Library>
