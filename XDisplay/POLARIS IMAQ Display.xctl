@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<XControl LVVersion="9008000">
+<XControl LVVersion="14008000">
 	<Property Name="NI.Lib.Description" Type="Str">This is a LabVIEW 9.0 XControl witch alternates IMAQ Display with some futures 
 required for laser applications e.g.:
 
@@ -37,8 +37,10 @@ This program is free software; you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General License for more details (http://www.gnu.org).
 </Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
-	<Property Name="NI.Lib.Icon" Type="Bin">#1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*4!!!*Q(C=\&gt;1R4BN"&amp;-&lt;RDSB&amp;7N]AME3V3P715N,Y#,B/^QIOY"*+(S"#?B56D;`AAAO]+VD=Q"V+%;(BP]-4MA"(13)+"&lt;/-V`ZG^MW0W&gt;6+P8W20OPU67VY=NYX`M,)U0`'+@U]$#_0\UT[S]J^&gt;J_`6`&gt;1=8_N'B_?+*`8XV8O%1X0PPSR[;.^N0`&lt;TNMLW^M4$K3R&lt;GN*$\L44?.3,=G40-G40-G40-C$0-C$0-C$X-G&gt;X-G&gt;X-G&gt;X-C.X-C.X-C.P"`E)B?ZS#%FCS=,*574!MFE+%I_%E`C34S*BZ^+0)EH]33?R--5*:\%EXA34_,B-C7?R*.Y%E`CI638:$`)]31?SCPQ"*\!%XA#$UMK]!3!9,'A=&amp;!%BI,"Y%PA#4S"B[]+0)%H]!3?Q-/Q!E`A#4S"*`"Q3&gt;_6[*LR)-&gt;$'4E?R_.Y()`DI&lt;1=D_.R0)\(]&lt;#=()`D=2$/AEZR#()O=C9Y0RS0Y_%ER_.Y()`D=4Q-^4PE@7&gt;'T8C1YT%]BM@Q'"\$1QE:(M.D?!S0Y;'M$)`B-4S'R`#QF!S0Y4%]"M29F/6F&amp;$-O.#9:A?(BLT]NVO^3&gt;)HV1[K(6`61KBYWV5/E?DB5.VVV-V5X3&lt;8ZKEV6&lt;::K%V4`H!KNQKA756U]4N37TQV^46`2F`1&amp;@5[@U;@US8DJ'U`=&lt;L@;&lt;$:;L^&gt;;L6:;,J&gt;;,";;T_?;T7;;4K?;4#;0LY'P()]PB(IPX&gt;X2/2^?(&lt;@$&lt;]@NL,8&lt;\\`;\R`UEYP,W[/@F[V&gt;X`S&lt;^^*\?$@KEX&lt;LME@X4&lt;Z[FA!!!!!</Property>
+	<Property Name="NI.Lib.Icon" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*4!!!*Q(C=\&gt;1R4BN"&amp;-&lt;RDSB&amp;7N]AME3V3P715N,Y#,B/^QIOY"*+(S"#?B56D;`AAAO]+VD=Q"V+%;(BP]-4MA"(13)+"&lt;/-V`ZG^MW0W&gt;6+P8W20OPU67VY=NYX`M,)U0`'+@U]$#_0\UT[S]J^&gt;J_`6`&gt;1=8_N'B_?+*`8XV8O%1X0PPSR[;.^N0`&lt;TNMLW^M4$K3R&lt;GN*$\L44?.3,=G40-G40-G40-C$0-C$0-C$X-G&gt;X-G&gt;X-G&gt;X-C.X-C.X-C.P"`E)B?ZS#%FCS=,*574!MFE+%I_%E`C34S*BZ^+0)EH]33?R--5*:\%EXA34_,B-C7?R*.Y%E`CI638:$`)]31?SCPQ"*\!%XA#$UMK]!3!9,'A=&amp;!%BI,"Y%PA#4S"B[]+0)%H]!3?Q-/Q!E`A#4S"*`"Q3&gt;_6[*LR)-&gt;$'4E?R_.Y()`DI&lt;1=D_.R0)\(]&lt;#=()`D=2$/AEZR#()O=C9Y0RS0Y_%ER_.Y()`D=4Q-^4PE@7&gt;'T8C1YT%]BM@Q'"\$1QE:(M.D?!S0Y;'M$)`B-4S'R`#QF!S0Y4%]"M29F/6F&amp;$-O.#9:A?(BLT]NVO^3&gt;)HV1[K(6`61KBYWV5/E?DB5.VVV-V5X3&lt;8ZKEV6&lt;::K%V4`H!KNQKA756U]4N37TQV^46`2F`1&amp;@5[@U;@US8DJ'U`=&lt;L@;&lt;$:;L^&gt;;L6:;,J&gt;;,";;T_?;T7;;4K?;4#;0LY'P()]PB(IPX&gt;X2/2^?(&lt;@$&lt;]@NL,8&lt;\\`;\R`UEYP,W[/@F[V&gt;X`S&lt;^^*\?$@KEX&lt;LME@X4&lt;Z[FA!!!!!</Property>
+	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
+	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Property Name="NI.XClass.Flags" Type="Int">0</Property>
 	<Property Name="NI.XItem.DeclaredLeakProof" Type="Bool">false</Property>
 	<Property Name="NI.XItem.Express" Type="Bool">false</Property>

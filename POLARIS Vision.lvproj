@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="9008000">
+<Project Type="Project" LVVersion="14008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -57,7 +58,7 @@
 				<Item Name="ROI Descriptor" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/ROI Descriptor"/>
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
-				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userDefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -96,7 +97,6 @@
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
-				<Item Name="Merge Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Merge Errors.vi"/>
 				<Item Name="IMAQ Overlay ROI" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay ROI"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
@@ -125,6 +125,8 @@
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -135,33 +137,27 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/C/Program Files/National Instruments/LabVIEW 2009/resource/lvanlys.dll"/>
 			<Item Name="NI_PNGCustomString.dll" Type="Document" URL="../Utility/Write PNG Header/NI_PNGCustomString.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="POLARIS Camera" Type="EXE">
-				<Property Name="App_applicationGUID" Type="Str">{D23B6141-B73B-40A8-98B8-E87B49F9F904}</Property>
-				<Property Name="App_applicationName" Type="Str">POLARIS Camera.exe</Property>
-				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">POLARIS Camera
--allows mulltinstance
--Configuration via commandline parameters
--Imageanalysis is now synchrnonised
--Works with 8bit, 16bit and 12bit packed cam image formats</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
-				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
-				<Property Name="App_fileVersion.patch" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{EC738497-3A10-4DE1-A04F-CDC26556C583}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{FB0E6B98-24A2-4C5E-9AD1-91994A7B457A}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/POLARIS Programms/Config files/POLARIS Camera.ini</Property>
-				<Property Name="App_internalName" Type="Str">POLARIS Camera</Property>
-				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
-				<Property Name="App_productName" Type="Str">POLARIS Camera</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{EB5A3C5E-04CF-4068-BA07-D2C6C1A13447}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">POLARIS Camera</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Camera</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{54391976-A5CF-4F15-83B6-C86BA59839A2}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">POLARIS Camera.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Camera/POLARIS Camera.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -170,7 +166,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Camera/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/POLARIS Camera.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9783473B-323C-4358-A5ED-F8D983478C1A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B45ADCFC-DE28-441B-A769-E4BA5A901470}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/POLARIS Camera.vi</Property>
@@ -181,26 +177,35 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Universität Jena</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">POLARIS Camera
+-allows mulltinstance
+-Configuration via commandline parameters
+-Imageanalysis is now synchrnonised
+-Works with 8bit, 16bit and 12bit packed cam image formats</Property>
+				<Property Name="TgtF_internalName" Type="Str">POLARIS Camera</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
+				<Property Name="TgtF_productName" Type="Str">POLARIS Camera</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D23B6141-B73B-40A8-98B8-E87B49F9F904}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">POLARIS Camera.exe</Property>
 			</Item>
 			<Item Name="TA Focus POLARIS Vision" Type="EXE">
-				<Property Name="App_applicationGUID" Type="Str">{E018826E-C337-43B0-8D37-2936B9E8EF79}</Property>
-				<Property Name="App_applicationName" Type="Str">TA Focus POLARIS Vision.exe</Property>
-				<Property Name="App_companyName" Type="Str">Helmholtz-Institut Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">-Imageanalysis is now synchrnonised
--Works with 8bit, 16bit and 12bit packed cam image formats</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
-				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
-				<Property Name="App_fileVersion.patch" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{2F1AA3B2-57C7-4D63-9A86-A71AC39060CF}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B875F23B-B314-412F-B79F-1B2A95E645EB}</Property>
-				<Property Name="App_internalName" Type="Str">TA Focus POLARIS Vision</Property>
-				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Helmholtz-Institut Jena</Property>
-				<Property Name="App_productName" Type="Str">TA Focus POLARIS Vision</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{99757881-813D-4B68-92FF-8FFFEF197B73}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">TA Focus POLARIS Vision</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B570EE10-E457-44C9-BBAE-0412BCDD1860}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path"></Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TA Focus POLARIS Vision.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/TA Focus POLARIS Vision.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -223,26 +228,32 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">Helmholtz-Institut Jena</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">-Imageanalysis is now synchrnonised
+-Works with 8bit, 16bit and 12bit packed cam image formats</Property>
+				<Property Name="TgtF_internalName" Type="Str">TA Focus POLARIS Vision</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Helmholtz-Institut Jena</Property>
+				<Property Name="TgtF_productName" Type="Str">TA Focus POLARIS Vision</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{E018826E-C337-43B0-8D37-2936B9E8EF79}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TA Focus POLARIS Vision.exe</Property>
 			</Item>
 			<Item Name="POLARIS Fluence Camera" Type="EXE">
-				<Property Name="App_applicationGUID" Type="Str">{EE3576D0-6582-48C4-AA11-85DD964FF6D8}</Property>
-				<Property Name="App_applicationName" Type="Str">POLARIS Fluence Camera.exe</Property>
-				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">-Imageanalysis is now synchrnonised
--Works with 8bit, 16bit and 12bit packed cam image formats</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
-				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
-				<Property Name="App_fileVersion.patch" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{1B9D8055-7967-4B59-AD15-13751380690B}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{959FA855-7931-498B-A9CF-FD31CAFD6E0C}</Property>
-				<Property Name="App_internalName" Type="Str">POLARIS Camera</Property>
-				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
-				<Property Name="App_productName" Type="Str">POLARIS Camera</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.Universität Jena.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{F7A67E1E-1BE2-49F3-A482-04EFFAB63216}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">POLARIS Fluence Camera</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Fluence Camera</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F82D67F4-045F-43F3-A5B9-5733FB47BD7B}</Property>
+				<Property Name="Bld_targetDestDir" Type="Path"></Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">POLARIS Fluence Camera.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Fluence Camera/POLARIS Fluence Camera.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -261,31 +272,34 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Universität Jena</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">-Imageanalysis is now synchrnonised
+-Works with 8bit, 16bit and 12bit packed cam image formats</Property>
+				<Property Name="TgtF_internalName" Type="Str">POLARIS Camera</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
+				<Property Name="TgtF_productName" Type="Str">POLARIS Camera</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{EE3576D0-6582-48C4-AA11-85DD964FF6D8}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">POLARIS Fluence Camera.exe</Property>
 			</Item>
 			<Item Name="POLARIS SHG-AK" Type="EXE">
-				<Property Name="App_applicationGUID" Type="Str">{72E2BDAD-DFA0-4D97-BA03-CF5EAEC7AE55}</Property>
-				<Property Name="App_applicationName" Type="Str">POLARIS SHG-AK.exe</Property>
-				<Property Name="App_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="App_fileDescription" Type="Str">POLARIS Camera
--allows mulltinstance
--Configuration via commandline parameters
--Imageanalysis is now synchrnonised
--Works with 8bit, 16bit and 12bit packed cam image formats</Property>
-				<Property Name="App_fileVersion.major" Type="Int">1</Property>
-				<Property Name="App_fileVersion.minor" Type="Int">1</Property>
-				<Property Name="App_fileVersion.patch" Type="Int">1</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{35C00AA3-8E5E-4395-87C6-E7D829B4488E}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{654FCBBE-BD9D-4818-92D1-997119DE4CF6}</Property>
 				<Property Name="App_INI_itemID" Type="Ref">/My Computer/POLARIS Programms/Config files/POLARIS Camera.ini</Property>
-				<Property Name="App_internalName" Type="Str">POLARIS Camera</Property>
-				<Property Name="App_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
-				<Property Name="App_productName" Type="Str">POLARIS Camera</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{49B65AAB-C803-4A37-9108-5D04CA33DFC8}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">POLARIS SHG-AK</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS SHG-AK</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{39D58225-1698-44CB-A58A-1DC025AC72E0}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
+				<Property Name="Bld_targetDestDir" Type="Path"></Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">POLARIS SHG-AK.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS SHG-AK/POLARIS SHG-AK.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -308,6 +322,17 @@
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">Universität Jena</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">POLARIS Camera
+-allows mulltinstance
+-Configuration via commandline parameters
+-Imageanalysis is now synchrnonised
+-Works with 8bit, 16bit and 12bit packed cam image formats</Property>
+				<Property Name="TgtF_internalName" Type="Str">POLARIS Camera</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
+				<Property Name="TgtF_productName" Type="Str">POLARIS Camera</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{72E2BDAD-DFA0-4D97-BA03-CF5EAEC7AE55}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">POLARIS SHG-AK.exe</Property>
 			</Item>
 		</Item>
 	</Item>
