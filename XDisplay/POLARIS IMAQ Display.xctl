@@ -183,6 +183,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 	</Item>
 	<Item Name="Dialogs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Error Save Img msg.vi" Type="VI" URL="../Error Save Img msg.vi"/>
 		<Item Name="New BG Msg.vi" Type="VI" URL="../New BG Msg.vi"/>
 		<Item Name="Display Settings.vi" Type="VI" URL="../Display Settings.vi"/>
 		<Item Name="Open Dialog VI.vi" Type="VI" URL="../Open Dialog VI.vi"/>
