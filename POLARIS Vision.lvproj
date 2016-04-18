@@ -32,11 +32,9 @@
 			<Item Name="IMAQdx Class" Type="Folder">
 				<Item Name="test attributes file.vi" Type="VI" URL="../IMAQdx Cam/test attributes file.vi"/>
 				<Item Name="Example IMAQdx Cam.vi" Type="VI" URL="../Example IMAQdx Cam.vi"/>
-				<Item Name="test 4 cams.vi" Type="VI" URL="../test 4 cams.vi"/>
 				<Item Name="listener mode.vi" Type="VI" URL="../listener mode.vi"/>
 			</Item>
 			<Item Name="POLARIS Image Viewer.vi" Type="VI" URL="../POLARIS Image Viewer.vi"/>
-			<Item Name="test Factory.vi" Type="VI" URL="../test Factory.vi"/>
 			<Item Name="Example IMAQdx Cam and XDisplay.vi" Type="VI" URL="../Example IMAQdx Cam and XDisplay.vi"/>
 		</Item>
 		<Item Name="Analyze Classes" Type="Folder">
@@ -46,11 +44,10 @@
 		<Item Name="POLARIS Vision utility.lvlib" Type="Library" URL="../Utility/POLARIS Vision utility.lvlib"/>
 		<Item Name="POLARIS IMAQ Display.xctl" Type="XControl" URL="../XDisplay/POLARIS IMAQ Display.xctl"/>
 		<Item Name="IMAQdx Cam.lvclass" Type="LVClass" URL="../IMAQdx Cam/IMAQdx Cam.lvclass"/>
-		<Item Name="ROI 2 INI Section.vi" Type="VI" URL="../Utility/ROI 2 INI Section.vi"/>
-		<Item Name="ROI from INI Section.vi" Type="VI" URL="../Utility/ROI from INI Section.vi"/>
 		<Item Name="control position.ctl" Type="VI" URL="../Utility/control position.ctl"/>
 		<Item Name="Example IMAQdx Cam and XDisplay_temp.vi" Type="VI" URL="../Example IMAQdx Cam and XDisplay_temp.vi"/>
-		<Item Name="POLARIS Image Viewer find memory bug.vi" Type="VI" URL="../POLARIS Image Viewer find memory bug.vi"/>
+		<Item Name="Test.vi" Type="VI" URL="../Analyze Classes/Analyze Fluence/Test.vi"/>
+		<Item Name="Sum in Tiles.vi" Type="VI" URL="../Analyze Classes/Analyze Fluence/Sum in Tiles.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
@@ -333,6 +330,146 @@
 				<Property Name="TgtF_productName" Type="Str">POLARIS Camera</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{72E2BDAD-DFA0-4D97-BA03-CF5EAEC7AE55}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">POLARIS SHG-AK.exe</Property>
+			</Item>
+			<Item Name="POLARIS Image Viewer Inst" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">POLARIS Vision</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{98A5E31C-31F5-4C08-AA5F-7A4146EB2540}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{4461AC80-F9E3-41CA-BECB-31AF30A85031}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI Vision Common Resources 2014 SP1</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{409BEFA9-EB3E-472F-AD77-271A4A1D5927}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{95D20061-F4B7-4C98-B305-D226B8652753}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI Vision Run-Time Engine 2014 SP1</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{E98B6D74-70B9-4B10-A723-826B3DC54875}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-IMAQdx Runtime 14.0</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{3D104AB3-CE10-43C0-B647-07600754072C}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{BC594EC3-71AC-4EFF-9004-2DABE9C79D7A}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2014 SP1</Property>
+				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI LabVIEW Runtime 2014 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{CAC8FA79-6D3D-4263-BB7B-1A706EF87C08}</Property>
+				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[3].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[11].productName" Type="Str">NI mDNS Responder 14.0</Property>
+				<Property Name="DistPart[3].SoftDep[11].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[3].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[12].productName" Type="Str">NI Deployment Framework 2014</Property>
+				<Property Name="DistPart[3].SoftDep[12].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[3].SoftDep[13].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[13].productName" Type="Str">NI Error Reporting 2014</Property>
+				<Property Name="DistPart[3].SoftDep[13].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Service Locator 14.0</Property>
+				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{B235B862-6A92-4A04-A8B2-6D71F777DE67}</Property>
+				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI System Web Server 14.5</Property>
+				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{3BDD0408-2F90-4B42-9777-5ED1D4BE67A8}</Property>
+				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI Logos 14.0</Property>
+				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI TDM Streaming 14.0</Property>
+				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI LabVIEW Web Server 2014</Property>
+				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{4A8BDBBB-DA1C-45C9-8563-74C034FBD357}</Property>
+				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2014</Property>
+				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{4372F3E3-5935-4012-93AB-B6710CE24920}</Property>
+				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">14</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{4722F14B-8434-468D-840D-2B0CD8CBD5EA}</Property>
+				<Property Name="DistPartCount" Type="Int">4</Property>
+				<Property Name="INST_author" Type="Str">Microsoft</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/POLARIS Image Viewer Inst/POLARIS Image Viewer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">POLARIS Image Viewer Inst</Property>
+				<Property Name="INST_defaultDir" Type="Str">{98A5E31C-31F5-4C08-AA5F-7A4146EB2540}</Property>
+				<Property Name="INST_productName" Type="Str">POLARIS Image Viewer</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
+				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">14018008</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Helmholtz-Institut-Jena</Property>
+				<Property Name="MSI_arpURL" Type="Str">http://www.hi-jena.de/</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{628DC3E0-2227-4B4C-BBD1-E4620B6A889F}</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{7C181452-7C03-4C5D-A2F6-E44FB4DEE6AD}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{98A5E31C-31F5-4C08-AA5F-7A4146EB2540}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{98A5E31C-31F5-4C08-AA5F-7A4146EB2540}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">POLARIS Image Viewer.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">POLARIS Image Viewer</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">POLARIS Image Viewer</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{11A9FB20-E377-4882-A66E-6593CF3F0055}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">POLARIS Image Viewer</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/POLARIS Image Viewer</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="POLARIS Image Viewer" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{D935A3E6-DCB3-46AA-BE90-BE83189C3779}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{55A2433D-2C97-49CB-94AB-44DDA6047E3D}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Microsoft.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7E79F701-26EE-4ECD-8DAA-D31986AB88BE}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">POLARIS Image Viewer</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Image Viewer</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{04F64F87-35A5-4B1A-96CF-83CE7775F91A}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">POLARIS Image Viewer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Image Viewer/POLARIS Image Viewer.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Image Viewer/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CC6C9D31-3F1E-4E11-9A6E-BFCBCE7CC261}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/examples/POLARIS Image Viewer.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Microsoft</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">POLARIS Image Viewer</Property>
+				<Property Name="TgtF_internalName" Type="Str">POLARIS Image Viewer</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Microsoft</Property>
+				<Property Name="TgtF_productName" Type="Str">POLARIS Image Viewer</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{11A9FB20-E377-4882-A66E-6593CF3F0055}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">POLARIS Image Viewer.exe</Property>
 			</Item>
 		</Item>
 	</Item>
