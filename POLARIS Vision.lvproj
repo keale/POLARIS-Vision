@@ -124,6 +124,8 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
+				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
 			</Item>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -153,7 +155,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{54391976-A5CF-4F15-83B6-C86BA59839A2}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">POLARIS Camera.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Camera/POLARIS Camera.exe</Property>
@@ -163,7 +165,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Camera/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/POLARIS Camera.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B45ADCFC-DE28-441B-A769-E4BA5A901470}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{70BFAA72-269E-40F2-A086-CD8361771611}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/POLARIS Camera.vi</Property>
@@ -175,11 +177,14 @@
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">POLARIS Camera
+				<Property Name="TgtF_fileDescription" Type="Str">V 1.2.1 Bigger beam diviation overlay. Resize with Window.
+
+POLARIS Camera
 -allows mulltinstance
 -Configuration via commandline parameters
 -Imageanalysis is now synchrnonised
--Works with 8bit, 16bit and 12bit packed cam image formats</Property>
+-Works with 8bit, 16bit and 12bit packed cam image formats
+</Property>
 				<Property Name="TgtF_internalName" Type="Str">POLARIS Camera</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
 				<Property Name="TgtF_productName" Type="Str">POLARIS Camera</Property>
@@ -247,9 +252,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F82D67F4-045F-43F3-A5B9-5733FB47BD7B}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path"></Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">POLARIS Fluence Camera.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Fluence Camera/POLARIS Fluence Camera.exe</Property>
@@ -258,7 +262,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/POLARIS Fluence Camera/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9783473B-323C-4358-A5ED-F8D983478C1A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{70BFAA72-269E-40F2-A086-CD8361771611}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/POLARIS Fluence Camera.vi</Property>
@@ -270,8 +274,7 @@
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Universität Jena</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">-Imageanalysis is now synchrnonised
--Works with 8bit, 16bit and 12bit packed cam image formats</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">- Röntgenphoton fähig</Property>
 				<Property Name="TgtF_internalName" Type="Str">POLARIS Camera</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Universität Jena</Property>
 				<Property Name="TgtF_productName" Type="Str">POLARIS Camera</Property>

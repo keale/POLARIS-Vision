@@ -180,6 +180,7 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 			<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		</Item>
 		<Item Name="Init Analyze Objs from Report.vi" Type="VI" URL="../Init Analyze Objs from Report.vi"/>
+		<Item Name="ROI to 1D and 2D ROIs.vi" Type="VI" URL="../ROI to 1D and 2D ROIs.vi"/>
 	</Item>
 	<Item Name="Dialogs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
