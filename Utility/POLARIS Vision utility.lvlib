@@ -15,11 +15,8 @@
 	<Item Name="retrieve control values.vi" Type="VI" URL="../retrieve control values.vi"/>
 	<Item Name="UserPalette-xRainbows.vi" Type="VI" URL="../UserPalette-xRainbows.vi"/>
 	<Item Name="PNG Header.vi" Type="VI" URL="../Write PNG Header/PNG Header.vi"/>
-	<Item Name="test windows positionierung.vi" Type="VI" URL="../test windows positionierung.vi"/>
-	<Item Name="Adapt FP.vi" Type="VI" URL="../Adapt FP.vi"/>
 	<Item Name="Change Control Size.vi" Type="VI" URL="../Change Control Size.vi"/>
 	<Item Name="Get Control Size.vi" Type="VI" URL="../Get Control Size.vi"/>
-	<Item Name="Load FP settings from File.vi" Type="VI" URL="../Load FP settings from File.vi"/>
 	<Item Name="Set Control Position.vi" Type="VI" URL="../Set Control Position.vi"/>
 	<Item Name="Open Dialog VI.vi" Type="VI" URL="../Open Dialog VI.vi"/>
 	<Item Name="pythagoras.vi" Type="VI" URL="../pythagoras.vi"/>
