@@ -12,42 +12,35 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="POLARIS Programms" Type="Folder">
-			<Item Name="Graveyard" Type="Folder">
-				<Item Name="FF Target IN POLARIS Vision.vi" Type="VI" URL="../POLARIS Programme/FF Target IN POLARIS Vision.vi"/>
-			</Item>
 			<Item Name="icons" Type="Folder">
 				<Item Name="TA Focus POLARIS Vision.ico" Type="Document" URL="../POLARIS Programme/TA Focus POLARIS Vision.ico"/>
 				<Item Name="TA FF in POLARIS Vision.ico" Type="Document" URL="../POLARIS Programme/TA FF in POLARIS Vision.ico"/>
-				<Item Name="POLARIS Camera.ico" Type="Document" URL="../POLARIS Camera.ico"/>
+				<Item Name="POLARIS Camera.ico" Type="Document" URL="../POLARIS Programme/POLARIS Camera.ico"/>
 			</Item>
 			<Item Name="Config files" Type="Folder">
-				<Item Name="POLARIS Camera.ini" Type="Document" URL="../POLARIS Camera.ini"/>
+				<Item Name="POLARIS Camera.ini" Type="Document" URL="../POLARIS Programme/POLARIS Camera.ini"/>
 			</Item>
 			<Item Name="Target Focus POLARIS Vision.vi" Type="VI" URL="../POLARIS Programme/Target Focus POLARIS Vision.vi"/>
-			<Item Name="POLARIS Fluence Camera.vi" Type="VI" URL="../POLARIS Fluence Camera.vi"/>
-			<Item Name="POLARIS Camera.vi" Type="VI" URL="../POLARIS Camera.vi"/>
+			<Item Name="POLARIS Fluence Camera.vi" Type="VI" URL="../POLARIS Programme/POLARIS Fluence Camera.vi"/>
+			<Item Name="POLARIS Camera.vi" Type="VI" URL="../POLARIS Programme/POLARIS Camera.vi"/>
 			<Item Name="SHG-AK.vi" Type="VI" URL="../POLARIS Programme/SHG-AK.vi"/>
+			<Item Name="POLARIS Image Viewer.vi" Type="VI" URL="../POLARIS Programme/POLARIS Image Viewer.vi"/>
 		</Item>
 		<Item Name="examples" Type="Folder">
 			<Item Name="IMAQdx Class" Type="Folder">
-				<Item Name="test attributes file.vi" Type="VI" URL="../IMAQdx Cam/test attributes file.vi"/>
-				<Item Name="Example IMAQdx Cam.vi" Type="VI" URL="../Example IMAQdx Cam.vi"/>
-				<Item Name="listener mode.vi" Type="VI" URL="../listener mode.vi"/>
+				<Item Name="Example IMAQdx Cam.vi" Type="VI" URL="../Examples/Example IMAQdx Cam.vi"/>
 			</Item>
-			<Item Name="POLARIS Image Viewer.vi" Type="VI" URL="../POLARIS Image Viewer.vi"/>
-			<Item Name="Example IMAQdx Cam and XDisplay.vi" Type="VI" URL="../Example IMAQdx Cam and XDisplay.vi"/>
+			<Item Name="Example IMAQdx Cam and XDisplay Step 0.vi" Type="VI" URL="../Examples/Example IMAQdx Cam and XDisplay Step 0.vi"/>
+			<Item Name="Example IMAQdx Cam and XDisplay Step 1.vi" Type="VI" URL="../Examples/Example IMAQdx Cam and XDisplay Step 1.vi"/>
+			<Item Name="Example IMAQdx Cam and XDisplay Step 2.vi" Type="VI" URL="../Examples/Example IMAQdx Cam and XDisplay Step 2.vi"/>
+			<Item Name="Example IMAQdx Cam and XDisplay Step 3.vi" Type="VI" URL="../Examples/Example IMAQdx Cam and XDisplay Step 3.vi"/>
 		</Item>
-		<Item Name="Analyze Classes" Type="Folder">
+		<Item Name="POLARIS Vision" Type="Folder">
+			<Item Name="IMAQdx Cam.lvclass" Type="LVClass" URL="../IMAQdx Cam/IMAQdx Cam.lvclass"/>
+			<Item Name="POLARIS IMAQ Display.xctl" Type="XControl" URL="../XDisplay/POLARIS IMAQ Display.xctl"/>
 			<Item Name="Analyze.lvlib" Type="Library" URL="../Analyze Classes/Analyze.lvlib"/>
-			<Item Name="Width Method.ctl" Type="VI" URL="../Analyze Classes/Width Method.ctl"/>
+			<Item Name="POLARIS Vision utility.lvlib" Type="Library" URL="../Utility/POLARIS Vision utility.lvlib"/>
 		</Item>
-		<Item Name="POLARIS Vision utility.lvlib" Type="Library" URL="../Utility/POLARIS Vision utility.lvlib"/>
-		<Item Name="POLARIS IMAQ Display.xctl" Type="XControl" URL="../XDisplay/POLARIS IMAQ Display.xctl"/>
-		<Item Name="IMAQdx Cam.lvclass" Type="LVClass" URL="../IMAQdx Cam/IMAQdx Cam.lvclass"/>
-		<Item Name="control position.ctl" Type="VI" URL="../Utility/control position.ctl"/>
-		<Item Name="Example IMAQdx Cam and XDisplay_temp.vi" Type="VI" URL="../Example IMAQdx Cam and XDisplay_temp.vi"/>
-		<Item Name="Test.vi" Type="VI" URL="../Analyze Classes/Analyze Fluence/Test.vi"/>
-		<Item Name="Sum in Tiles.vi" Type="VI" URL="../Analyze Classes/Analyze Fluence/Sum in Tiles.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
@@ -100,23 +93,6 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
-				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
-				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
-				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
-				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
-				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
-				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
-				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
-				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
-				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
-				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
-				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
-				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
-				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
-				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
-				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
-				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="IMAQ WindToolsShow" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsShow"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
@@ -138,6 +114,7 @@
 			</Item>
 			<Item Name="NI_PNGCustomString.dll" Type="Document" URL="../Utility/Write PNG Header/NI_PNGCustomString.dll"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Load FP settings from File.vi" Type="VI" URL="../Utility/Load FP settings from File.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="POLARIS Camera" Type="EXE">
@@ -204,9 +181,8 @@ POLARIS Camera
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B570EE10-E457-44C9-BBAE-0412BCDD1860}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path"></Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TA Focus POLARIS Vision.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/TA Focus POLARIS Vision.exe</Property>
@@ -216,22 +192,23 @@ POLARIS Camera
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/TA Focus POLARIS Vision/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/POLARIS Programms/icons/TA Focus POLARIS Vision.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9783473B-323C-4358-A5ED-F8D983478C1A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8064ECA6-0036-43CC-8848-A6B91966AC3F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/Graveyard/FF Target IN POLARIS Vision.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/POLARIS Programms/Target Focus POLARIS Vision.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/POLARIS Vision utility.lvlib/Adapt FP.vi</Property>
-				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Helmholtz-Institut Jena</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">-Imageanalysis is now synchrnonised
+				<Property Name="TgtF_fileDescription" Type="Str">1.2.1
+- für NI Vision 2014 kompiliert. 
+- Autoscalierung für Bilddisplay 
+
+1.1.1
+- Imageanalysis is now synchrnonised
 -Works with 8bit, 16bit and 12bit packed cam image formats</Property>
 				<Property Name="TgtF_internalName" Type="Str">TA Focus POLARIS Vision</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Helmholtz-Institut Jena</Property>
@@ -462,7 +439,7 @@ POLARIS Camera
 				<Property Name="Source[0].itemID" Type="Str">{CC6C9D31-3F1E-4E11-9A6E-BFCBCE7CC261}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/examples/POLARIS Image Viewer.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/POLARIS Programms/POLARIS Image Viewer.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
