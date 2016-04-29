@@ -21,4 +21,5 @@
 	<Item Name="Open Dialog VI.vi" Type="VI" URL="../Open Dialog VI.vi"/>
 	<Item Name="pythagoras.vi" Type="VI" URL="../pythagoras.vi"/>
 	<Item Name="FWHM.vi" Type="VI" URL="../FWHM.vi"/>
+	<Item Name="Width Method.ctl" Type="VI" URL="../Width Method.ctl"/>
 </Library>

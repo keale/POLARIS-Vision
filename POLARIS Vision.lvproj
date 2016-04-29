@@ -33,7 +33,6 @@
 			<Item Name="Example IMAQdx Cam and XDisplay Step 0.vi" Type="VI" URL="../Examples/Example IMAQdx Cam and XDisplay Step 0.vi"/>
 			<Item Name="Example IMAQdx Cam and XDisplay Step 1.vi" Type="VI" URL="../Examples/Example IMAQdx Cam and XDisplay Step 1.vi"/>
 			<Item Name="Example IMAQdx Cam and XDisplay Step 2.vi" Type="VI" URL="../Examples/Example IMAQdx Cam and XDisplay Step 2.vi"/>
-			<Item Name="Example IMAQdx Cam and XDisplay Step 3.vi" Type="VI" URL="../Examples/Example IMAQdx Cam and XDisplay Step 3.vi"/>
 		</Item>
 		<Item Name="POLARIS Vision" Type="Folder">
 			<Item Name="IMAQdx Cam.lvclass" Type="LVClass" URL="../IMAQdx Cam/IMAQdx Cam.lvclass"/>
